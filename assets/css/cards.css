@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    font-size: 16px;
+    font-family: "Raleway";
+    --heading-color: hsl(0, 0%, 7%);
+    --date-text-color: hsl(0, 0%, 51%);
+    --previous-price-text-color: hsl(0, 98%, 44%);
+    --current-price-text-color: hsla(0, 0%, 0%, 0.822);
+    --liked-heart-icon-color: hsl(0, 98%, 44%);
+    --heart-icon-color: whitesmoke;
+    --pricing-font-weight: 800;
+    --title-font-weight: 800;
+    --date-font-weight: 550;
+
+    /* Cards colors */
+    --card-main-color : rgb(204, 204, 204);
+    --card-1-secondary-color: rgb(192, 82, 82);
+    --card-2-secondary-color: rgb(67,53,27);
+    --card-3-secondary-color: rgb(178,180,179);
+    --card-4-secondary-color: rgb(96,109,117);
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    /* background-color: lightcyan; */  
+  }
+  
+.container input{
+    display: none;
+}
+
+.position-text {
+  background-color: #6f4141;
+  color: #ffffff;
+
+  
+  font-size: 1.2em;
+}
+
+
+.container{
+    max-width: 100em;
+    /* background-color: lightgreen; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: flex-start;
+    margin: auto;
+    min-height: 30em;
+    padding: 3em 1em 1em 1em;
+    box-sizing: border-box;
+}
+
+/* Card Styling */
+.card-div{
+    width: 20em;
+    min-height: 20em;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    background-color: var(--card-main-color);
+    margin: 0.6em;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .card-div:hover {
+    background-color: rgb(255, 255, 255);
+  }
+
+/* ======== General styling of all cards and heart divs ========== */
+.img-div{
+    width: 100%;
+    height: 8em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    z-index: 1;
+    border-radius: 0 0 10px 10px;
+}
+
+.img-div img{
+    transform-origin: bottom;
+    transform: translateY(7.5%);
+    transition: transform 0.3s ease-in-out
+}
+
+/* === Styling the like Icon ==== */
+.like-icon-div{
+    padding: 1em 1em 0 1em;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: right;
+    font-size: 1.5em;
+    color: var(--heart-icon-color);
+    border-radius:10px 10px 0 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.like-icon-div-child{
+    /* background-color: yellow; */
+    width: 1em;
+    height: 1em;
+    position: relative;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.heart-empty{
+    position: absolute;
+    left: 0;
+    opacity: 1;
+}
+
+.heart-fill{
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    transform: scale(0);
+    transition: transform 0.25s ease-in-out, opacity 0.2s ease-in-out;
+}
+
+
+/* God of war image and heart-background*/
+.gow-img-div{
+    background-color: var(--card-1-secondary-color);
+}
+
+.gow-img-div img{
+    width: 65%;
+    transform: translateY(7.5%);
+    /* background-color: whitesmoke; */
+}
+
+.card-1 .like-icon-div{
+    background-color: var(--card-1-secondary-color);
+}
+
+
+
+
+/* ======== text Container Styling general ======== */
+
+.text-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: yellow; */
+    padding: 0 1.5em;
+    padding-top: 7em;
+    padding-bottom: 1em;
+    box-sizing: border-box;
+}
+
+.text-container .item-title,
+.text-container .date{
+    margin: 0.25em 0;
+    text-align: center;
+}
+
+.text-container .item-title{
+    font-size: 1.2em;
+    font-weight: var(--title-font-weight);
+    color: var(--current-price-text-color);
+}
+
+.text-container .date{
+    font-size: 0.9em;
+    font-weight: var(--date-font-weight);
+    color: var(--date-text-color);
+}
+
+/* === Pricing and cart div  ===== */
+
+.current-price{
+    color: var(--current-price-text-color);
+    font-size: 1.3rem;
+    font-weight: var(--pricing-font-weight);
+    /* background-color: yellow; */
+    margin: 0;
+}
+
+
+
+/* ====== Hover effects ======= */
+.card-div:hover .img-div img{
+    transform: translateY(7.5%) scale(1.2);
+}
+
+.card-div:hover{
+    transform: translate(0, -10px);
+}
+
+.like-icon-div-child:hover .heart-fill{
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+
+
+@keyframes like-animation{
+    0%{
+        opacity: 1;
+        transform: scale(1)
+    }
+    
+    50%{
+        opacity: 1;
+        color: var(--liked-heart-icon-color);
+        transform: scale(0.5);
+    }
+
+    100%{
+        opacity: 1;
+        color: var(--liked-heart-icon-color);
+        transform: scale(1.0);
+    }
+}
+
+@keyframes unlike-animation{
+    0%{
+        opacity: 1;
+        transform: scale(1)
+    }
+    
+    50%{
+        opacity: 1;
+        transform: scale(0.5);
+    }
+
+    100%{
+        opacity: 1;
+        color: var(--heart-icon-color);
+        transform: scale(1.0);
+    }
+}
