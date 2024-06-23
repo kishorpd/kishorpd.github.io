@@ -8,7 +8,7 @@ var span = document.getElementsByClassName("close")[0];
 // Array of card data
 var cards = [
   {
-    htmlFile: "Gazi.html",
+    htmlFile: "Projects/Gazi.html",
     buttonId: "myBtn1"
     },
   {
