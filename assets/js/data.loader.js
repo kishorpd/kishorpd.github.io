@@ -20,18 +20,17 @@ var cards = [
 
 // Loop through the cards array
 for (var i = 0; i < cards.length; i++) {
-  // Get the button that opens the modal
-  var btn = document.getElementById(cards[i].buttonId);
+      // Get the button that opens the modal
+      var btn = document.getElementById(cards[i].buttonId);
 
-  var cardIndex = i; // This is the variable you want to pass
+      var cardIndex = i; // This is the variable you want to pass
 
-  btn.onclick = (function(cardIndex) {
-    return function() {
-      modal.style.display = "block";
-      $( "#p2" ).load( cards[cardIndex].htmlFile);
-    };
-  })(cardIndex);
-
+      btn.onclick = (function(cardIndex) {
+        return function() {
+          modal.style.display = "block";
+          $( "#p2" ).load( cards[cardIndex].htmlFile);
+        };
+      })(cardIndex);
   
   }
 
