@@ -6,10 +6,12 @@
 -->
 <html>
 	<head>
-		<title>No Sidebar - Escape Velocity by HTML5 UP</title>
+		<title>Projects</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/cards.css" />
+		<link rel="stylesheet" href="assets/css/pop-up.css" />
 	</head>
 	<body class="no-sidebar is-preload">
 		<div id="page-wrapper">
@@ -21,35 +23,51 @@
 					<div id="logo">
 						<p>
 								
-							In the vast expanse of digital realms, I master the intensity of FPS games and the speed of car racing adventures.
-							</br>
-								🎮
-							</br>
-						
-							I love being the brain behind the pixels, designing engaging UI's and captivating gameplay.
-						</p>
+						The most beatuful journey is the one </br>
+						where we execute our imaginations!</p>
 						
 					</div>
 					
 
 					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li class="current"><a href="index.html">Home</a></li>
-								<li><a href="projects.html">Resume </a></li>
-								<li><a href="projects.html">Projects </a></li>
-							</ul>
-						</nav>
+					{% include navbar.html %}
+
 
 				</section>
 
 			<!-- Intro -->
 			<section id="intro" class="wrapper style1">
 				<div class="title">- Professional Experience  -</div>
-
 				
+				<!-- Cards Container -->
+				<div class="container">
+					
+					
+					<!-- Card -->
+					<div class="card-1 card-div">
+						
+						<div class="like-icon-div"></div>
+						<div class="gow-img-div img-div">
+							<!--img src="https://github.com/gerrardNwoke/codePen-imgs/blob/main/imgs/gow-figurine.png?raw=true" alt="god-of-war-figurine"-->
+							<img src = "images/Projects/marvel.png">
+						</div>
+						<div class="text-container">
+							<p class="item-title">Marvel Heroes Omega</p>
+							<p class="current-price">Gazillion Entertainment</p>
+							<p class="position-text"> Associate UI Engineer</p>
+							<p class="date"> 31/03/2021 </p>
+														
+							<!-- Trigger/Open The Modal -->
+							<button id="myBtn" class="button style3" 
+							value="mybutton1" onclick="dosomething(this.value)"
+							>Read more</button>
+							
+						</div>
+					</div><!-- End Card -->
 
-				
+					
+				</div><!-- End Card Container -->
+
 			</section>
 
 			<!-- Intro -->
@@ -57,6 +75,25 @@
 				<div class="title">- Personal projects  -</div>
 
 				
+
+			<!-- The Modal Popup Window -->
+			<div id="myModal" class="modal">
+
+			<!-- Modal content -->
+			<div class="modal-content">
+				<div class="modal-header">
+				<span class="close">&times;</span>
+				
+				</div>
+				<div id="p2">
+				Some text in the Modal Body
+				</div>
+				<div class="modal-footer">
+				<h3>-</h3>
+				</div>
+			</div>
+
+			</div>
 
 				
 			</section>
@@ -135,6 +172,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/data.loader.js"></script>
 
 	</body>
 </html>
