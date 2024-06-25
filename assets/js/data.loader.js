@@ -7,14 +7,18 @@ var span = document.getElementsByClassName("close")[0];
 
 // Array of card data
 var cards = [
-  {
+    {
     htmlFile: "Projects/Gazi.html",
     buttonId: "myBtn1"
     },
-  {
-    htmlFile: "Projects/Toyoto.html",
-    buttonId: "myBtn2"
-  },
+    {
+      htmlFile: "Projects/Toyoto.html",
+      buttonId: "myBtn2"
+    },
+    {
+      htmlFile: "Projects/QuadTree.html",
+      buttonId: "myBtn3"
+    },
   // Add more card data here...
 ];
 

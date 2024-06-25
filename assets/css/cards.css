@@ -11,7 +11,7 @@
     --heading-color: hsl(0, 0%, 7%);
     --date-text-color: hsl(0, 0%, 51%);
     --previous-price-text-color: hsl(0, 98%, 44%);
-    --current-price-text-color: hsla(0, 0%, 0%, 0.822);
+    --company-name-text-color: hsla(0, 0%, 0%, 0.822);
     --liked-heart-icon-color: hsl(0, 98%, 44%);
     --heart-icon-color: whitesmoke;
     --pricing-font-weight: 800;
@@ -153,7 +153,7 @@ body{
 .text-container .item-title{
     font-size: 1.2em;
     font-weight: var(--title-font-weight);
-    color: var(--current-price-text-color);
+    color: var(--company-name-text-color);
 }
 
 .text-container .date{
@@ -164,8 +164,8 @@ body{
 
 /* === Pricing and cart div  ===== */
 
-.current-price{
-    color: var(--current-price-text-color);
+.company-name{
+    color: var(--company-name-text-color);
     font-size: 1.3rem;
     font-weight: var(--pricing-font-weight);
     /* background-color: yellow; */
