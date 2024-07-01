@@ -103,12 +103,11 @@ body{
 
 /* === Styling the like Icon ==== */
 .like-icon-div{
-    padding: 1em 1em 0 1em;
+    padding: 1em 1em 1em 1em;
     width: 100%;
     box-sizing: border-box;
     text-align: right;
-    font-size: 1.5em;
-    color: var(--heart-icon-color);
+    font-size: 0.1em;
     border-radius:10px 10px 0 0;
     display: flex;
     justify-content: flex-end;
@@ -118,6 +117,18 @@ body{
 .gow-img-div{
     background-color: var(--card-1-secondary-color);
 }
+
+
+.button.style4 {
+    /* Position the button at the bottom */
+    position: absolute;
+    bottom: 0;
+    width: 100%; /* Span the entire width */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    color: #212121; /* Default color (adjust as needed) */
+}
+
 
 .gow-img-div img{
     width: 65%;
@@ -183,47 +194,8 @@ body{
     transform: translate(0, -10px);
 }
 
-.like-icon-div-child:hover .heart-fill{
-    opacity: 1;
-    transform: scale(1);
-}
 
-
-
-
-@keyframes like-animation{
-    0%{
-        opacity: 1;
-        transform: scale(1)
-    }
-    
-    50%{
-        opacity: 1;
-        color: var(--liked-heart-icon-color);
-        transform: scale(0.5);
-    }
-
-    100%{
-        opacity: 1;
-        color: var(--liked-heart-icon-color);
-        transform: scale(1.0);
-    }
-}
-
-@keyframes unlike-animation{
-    0%{
-        opacity: 1;
-        transform: scale(1)
-    }
-    
-    50%{
-        opacity: 1;
-        transform: scale(0.5);
-    }
-
-    100%{
-        opacity: 1;
-        color: var(--heart-icon-color);
-        transform: scale(1.0);
-    }
+.button.style4:hover {
+    color: #c2b2ab; /* Hover color (adjust as needed) */
+    background-color: #212121;
 }
