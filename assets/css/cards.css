@@ -90,15 +90,14 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding-top: 1rem;
+    padding-top: 1em;
     z-index: 1;
     border-radius: 0 0 10px 10px;
 }
 
 .img-div img{
+
     transform-origin: bottom;
-    transform: translateY(7.5%);
-    transition: transform 0.3s ease-in-out
 }
 
 /* === Styling the like Icon ==== */
@@ -112,9 +111,10 @@ body{
     display: flex;
     justify-content: flex-end;
     
+    
 }
 
-/* God of war image and heart-background*/
+
 .gow-img-div{
     background-color: var(--card-1-secondary-color);
 }
@@ -128,50 +128,65 @@ body{
     left: 50%; /* Center horizontally */
     transform: translateX(-50%); /* Center horizontally */
     color: #212121; /* Default color (adjust as needed) */
+    display: none; /* Button */
 }
 
 
 .gow-img-div img{
     width: 95%;
-    transform: translateY(4.5%);
     /* background-color: whitesmoke; */
 }
 
 .card-1 .like-icon-div{
     background-color: var(--card-1-secondary-color);
-    
     height: 18em;
-
 }
+
+
+
 .card-div .like-icon-div {
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.4s ease-in-out;
     position: relative; /* Ensure the element is positioned */
 }
 
 .card-div:hover .like-icon-div {
-    transform: translatey(-80px) scale(1.5);
+    transform: translatey(-70px) scale(1.5);
+    width: 70%;
+    align-items: center;
+    align-content: center;
+    
+
     border-radius: 10px;
     z-index: 999; /* Render on top of everything */
+
+    transition: 
+    transform 0.3s ease,
+    align-items 0.3s,
+    width 0.3s,
+    border-radius 0.3s ease; /* Add animation */
 }
 
+.card-1:hover .button.style4 {
+    display: block;
+}
 
 /* ======== text Container Styling general ======== */
 
 .text-container{
-  width: 100%;
-  height: 5%;
+    width: 100%;
+    height: 5%;
     display: flex;
     flex-direction: column;
     /* background-color: yellow; */
-    padding: 0 1.5em;
-    padding-top: 1.5em;
-    padding-bottom: 1em;
+    padding: 0 0.5em;
+    padding-top: 1em;
+    padding-bottom: 0em;
     box-sizing: border-box;
 }
 
 .text-container .item-title,
 .text-container .date{
-    margin: 0.25em 0;
+    margin: 0em 0;
     text-align: center;
 }
 
@@ -193,7 +208,6 @@ body{
     color: var(--company-name-text-color);
     font-size: 1em;
     font-weight: var(--pricing-font-weight);
-    /* background-color: yellow; */
     margin: 0;
 }
 
@@ -201,7 +215,9 @@ body{
 
 /* ====== Hover effects ======= */
 .card-div:hover .img-div img{
-    transform: translateY(7.5%) scale(1.2);
+    transform: translateY(17.5%) scale(1.3);
+    
+    transition: transform 0.3s ease-in-out
 }
 
 .card-div:hover{
