@@ -46,7 +46,7 @@ var cards = [
 function createCard(card, index) {
     let iconsHtml = '';
     if (card.icons) {
-        iconsHtml = card.icons.map(icon => `<img src="${icon}" width="30" height="30">`).join('');
+        iconsHtml = card.icons.map(icon => `<img src="${icon}" width="20" height="20">`).join('');
     }
     return `
         <div class="card-1 card-div">
