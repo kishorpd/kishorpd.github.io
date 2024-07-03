@@ -79,7 +79,7 @@ body{
   }
 
   .card-div:hover {
-    background-color: var(--card-1-secondary-color);
+    background-color:var(--card-1-secondary-color);
   }
 
 /* ======== General styling of all cards and heart divs ========== */
@@ -128,7 +128,7 @@ body{
     width: 100%; /* Span the entire width */
     left: 50%; /* Center horizontally */
     transform: translateX(-50%); /* Center horizontally */
-    color: #212121; /* Default color (adjust as needed) */
+    color: #ffffff; /* Default color (adjust as needed) */
     display: none; /* Button */
 }
 
@@ -147,8 +147,9 @@ body{
 
 
 .card-div .like-icon-div {
-    transition: transform 0.4s ease-in-out;
-    position: relative; /* Ensure the element is positioned */
+    
+    transform: translateY(0) scale(1);
+    transition: transform 0.3s ease; /* Add a transition for the transform property */
 }
 
 .card-div:hover .like-icon-div {
@@ -215,6 +216,33 @@ body{
 
 
 /* ====== Hover effects ======= */
+
+
+.card-div:hover .item-title{
+    font-size: 1.4em;
+    transform-origin: top;
+    background-color: white;
+    align-self: center;
+    border-radius: 10px;
+    background-color:#FFFFFF;
+    border:5px solid;
+    border-width: thick;
+    width: 260px;
+    height: 100px;
+    transform: translate(0, 50px);
+    z-index: 999; /* Render on top of everything */
+}
+
+.card-div:hover .position-text{
+    display: none;
+}
+.card-div:hover .company-name{
+    display: none;
+}
+.card-div:hover .date{
+    display: none;
+}
+
 .card-div:hover .img-div img{
     transform: translateY(17.5%) scale(1.3);
     

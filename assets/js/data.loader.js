@@ -21,8 +21,8 @@ function createCard(card, index) {
                 <p class="company-name">${card.company}</p>
                 <p class="position-text">${card.position}</p>
                 <p class="date">${card.date}</p>
-                <button id="myBtn${index}" class="button style4">Read more</button>
             </div>
+            <button id="myBtn${index}" class="button style4">Read more</button>
         </div>
     `;
 }
