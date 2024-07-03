@@ -6,7 +6,7 @@
 }
 
 :root{
-    font-size: 16px;
+    font-size: 12px;
     font-family: "Raleway";
     --heading-color: hsl(0, 0%, 7%);
     --date-text-color: hsl(0, 0%, 51%);
@@ -57,14 +57,14 @@ body{
     justify-content: center;
     align-content: flex-start;
     margin: auto;
-    min-height: 30em;
+    min-height: 4em;
     padding: 3em 1em 1em 1em;
     box-sizing: border-box;
 }
 
 /* Card Styling */
 .card-div{
-    width: 20em;
+    width: 15em;
     min-height: 16em;
     display: flex;
     flex-direction: column;
@@ -79,7 +79,7 @@ body{
   }
 
   .card-div:hover {
-    background-color: rgb(255, 255, 255);
+    background-color: var(--card-1-secondary-color);
   }
 
 /* ======== General styling of all cards and heart divs ========== */
@@ -90,63 +90,105 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding-top: 1rem;
+    padding-top: 1em;
     z-index: 1;
     border-radius: 0 0 10px 10px;
 }
 
+
 .img-div img{
+
     transform-origin: bottom;
-    transform: translateY(7.5%);
-    transition: transform 0.3s ease-in-out
 }
 
 /* === Styling the like Icon ==== */
 .like-icon-div{
-    padding: 1em 1em 0 1em;
+    padding: 1em 1em 1em 1em;
     width: 100%;
     box-sizing: border-box;
     text-align: right;
-    font-size: 1.5em;
-    color: var(--heart-icon-color);
+    font-size: 0.1em;
     border-radius:10px 10px 0 0;
     display: flex;
     justify-content: flex-end;
+    
+    
 }
 
-/* God of war image and heart-background*/
+
 .gow-img-div{
     background-color: var(--card-1-secondary-color);
 }
 
+
+.button.style4 {
+    /* Position the button at the bottom */
+    position: absolute;
+    bottom: 0;
+    width: 100%; /* Span the entire width */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    color: #212121; /* Default color (adjust as needed) */
+    display: none; /* Button */
+}
+
+
 .gow-img-div img{
-    width: 65%;
-    transform: translateY(7.5%);
+    width: 95%;
     /* background-color: whitesmoke; */
 }
 
 .card-1 .like-icon-div{
+    color: var(--card-1-secondary-color);
     background-color: var(--card-1-secondary-color);
+    height: 18em;
 }
 
+
+
+.card-div .like-icon-div {
+    transition: transform 0.4s ease-in-out;
+    position: relative; /* Ensure the element is positioned */
+}
+
+.card-div:hover .like-icon-div {
+    transform: translatey(-70px) scale(1.5);
+    width: 70%;
+    align-items: center;
+    align-content: center;
+    
+
+    border-radius: 10px;
+    z-index: 999; /* Render on top of everything */
+
+    transition: 
+    transform 0.3s ease,
+    align-items 0.3s,
+    width 0.3s,
+    border-radius 0.3s ease; /* Add animation */
+}
+
+.card-1:hover .button.style4 {
+    display: block;
+}
 
 /* ======== text Container Styling general ======== */
 
 .text-container{
-  width: 100%;
-  height: 10%;
+    width: 100%;
+    height: 5%;
     display: flex;
     flex-direction: column;
     /* background-color: yellow; */
-    padding: 0 1.5em;
-    padding-top: 1.5em;
-    padding-bottom: 1em;
+    padding: 0 0.5em;
+    padding-top: 1em;
+    padding-bottom: 0em;
     box-sizing: border-box;
 }
 
 .text-container .item-title,
 .text-container .date{
-    margin: 0.25em 0;
+    margin: 0em 0;
     text-align: center;
 }
 
@@ -166,64 +208,25 @@ body{
 
 .company-name{
     color: var(--company-name-text-color);
-    font-size: 1.3rem;
+    font-size: 1em;
     font-weight: var(--pricing-font-weight);
-    /* background-color: yellow; */
     margin: 0;
 }
 
 
-
 /* ====== Hover effects ======= */
 .card-div:hover .img-div img{
-    transform: translateY(7.5%) scale(1.2);
+    transform: translateY(17.5%) scale(1.3);
+    
+    transition: transform 0.3s ease-in-out
 }
 
 .card-div:hover{
     transform: translate(0, -10px);
 }
 
-.like-icon-div-child:hover .heart-fill{
-    opacity: 1;
-    transform: scale(1);
-}
 
-
-
-
-@keyframes like-animation{
-    0%{
-        opacity: 1;
-        transform: scale(1)
-    }
-    
-    50%{
-        opacity: 1;
-        color: var(--liked-heart-icon-color);
-        transform: scale(0.5);
-    }
-
-    100%{
-        opacity: 1;
-        color: var(--liked-heart-icon-color);
-        transform: scale(1.0);
-    }
-}
-
-@keyframes unlike-animation{
-    0%{
-        opacity: 1;
-        transform: scale(1)
-    }
-    
-    50%{
-        opacity: 1;
-        transform: scale(0.5);
-    }
-
-    100%{
-        opacity: 1;
-        color: var(--heart-icon-color);
-        transform: scale(1.0);
-    }
+.button.style4:hover {
+    color: #c2b2ab; /* Hover color (adjust as needed) */
+    background-color: #212121;
 }

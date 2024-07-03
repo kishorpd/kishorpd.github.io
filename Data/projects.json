@@ -1,0 +1,49 @@
+[
+    {
+      "htmlFile": "Projects/Gazi.html",
+      "imgSrc": "images/Projects/marvel.png",
+      "title": "Marvel Heroes Omega",
+      "company": "Gazillion Entertainment",
+      "position": "Associate UI Engineer",
+      "date": "31/03/2021 _________ 31/03/2021"
+    },
+    {
+      "htmlFile": "Projects/GaziOmega.html",
+      "imgSrc": "images/Projects/avengers (1).png",
+      "title": "Another Project",
+      "company": "Another Company",
+      "position": "Senior Developer",
+      "date": "01/04/2021 _________ 01/04/2022",
+      "icons": [
+        "images/Projects/Icons/unity.png",
+        "images/Projects/Icons/C++.png"
+      ]
+    },
+    {
+      "htmlFile": "Projects/FZero.html",
+      "imgSrc": "images/Projects/CandyTrap.png",
+      "title": "F-ZERO",
+      "company": "FIEA",
+      "position": "Programmer",
+      "date": "2015",
+      "icons": [
+        "images/Projects/Icons/unity.png",
+        "images/Projects/Icons/C++.png",
+        "images/Projects/Icons/vr.png"
+      ]
+    },
+    {
+      "htmlFile": "Projects/OctTree.html",
+      "imgSrc": "images/Projects/octree1.png",
+      "title": "OctTree",
+      "company": "FIEA",
+      "position": "Programmer",
+      "date": "2015",
+      "icons": [
+        "images/Projects/Icons/unity.png",
+        "images/Projects/Icons/CS.png",
+        "images/Projects/Icons/vr.png"
+      ]
+    }
+  ]
+  
