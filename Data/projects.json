@@ -1,7 +1,7 @@
 [
     {
       "htmlFile": "Projects/Gazi.html",
-      "imgSrc": "images/Projects/marvel.png",
+      "imgSrc": "images/Projects/temp.png",
       "title": "Marvel Heroes Omega",
       "company": "Gazillion Entertainment",
       "position": "Associate UI Engineer",
@@ -15,7 +15,7 @@
       "position": "Senior Developer",
       "date": "01/04/2021 _________ 01/04/2022",
       "icons": [
-        "images/Projects/Icons/unity.png",
+        "images/Projects/Icons/Unity.png",
         "images/Projects/Icons/C++.png"
       ]
     },
@@ -27,7 +27,7 @@
       "position": "Programmer",
       "date": "2015",
       "icons": [
-        "images/Projects/Icons/unity.png",
+        "images/Projects/Icons/Unity.png",
         "images/Projects/Icons/C++.png",
         "images/Projects/Icons/vr.png"
       ]
@@ -40,10 +40,58 @@
       "position": "Programmer",
       "date": "2015",
       "icons": [
-        "images/Projects/Icons/unity.png",
+        "images/Projects/Icons/Unity.png",
         "images/Projects/Icons/CS.png",
         "images/Projects/Icons/vr.png"
       ]
+    },
+    {
+      "htmlFile": "Projects/MARS_VR_Lab.html",
+      "imgSrc": "images/Projects/temp.png",
+      "title": "MARS VR Lab",
+      "company": "Halifax, NS, Canada",
+      "position": "Intermediate Software Engineer",
+      "date": "May 2021 - Now"
+    },
+    {
+      "htmlFile": "Projects/LifeRaft_Navigator.html",
+      "imgSrc": "images/Projects/temp.png",
+      "title": "LifeRaft Navigator",
+      "company": "Halifax, NS, Canada",
+      "position": "Intern",
+      "date": "September 2020 - December 2020"
+    },
+    {
+      "htmlFile": "Projects/Live_Wallpaper_Engine.html",
+      "imgSrc": "images/Projects/temp.png",
+      "title": "Live Wallpaper Engine for Android",
+      "company": "Home, Pune, India",
+      "position": "Software Engineer [Personal Project]",
+      "date": "May 2019 - December 2020"
+    },
+    {
+      "htmlFile": "Projects/AiSolve_Limited.html",
+      "imgSrc": "images/Projects/temp.png",
+      "title": "AiSolve Limited",
+      "company": "Bangalore, KN, India",
+      "position": "Software Engineer",
+      "date": "March 2018 - April 2019"
+    },
+    {
+      "htmlFile": "Projects/Toyota_InfoTechnology_Center.html",
+      "imgSrc": "images/Projects/temp.png",
+      "title": "Autonomous Car Data",
+      "company": "Toyota InfoTechnology, USA",
+      "position": "Software Developer (Intern)",
+      "date": "September 2017 - January 2018"
+    },
+    {
+      "htmlFile": "Projects/Gazillion_Entertainment.html",
+      "imgSrc": "images/Projects/temp.png",
+      "title": "Gazillion Entertainment",
+      "company": "Foster City, California, USA",
+      "position": "Associate UI Engineer / UI Engineer (Intern)",
+      "date": "February 2017 - August 2017"
     }
   ]
   
