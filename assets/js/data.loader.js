@@ -11,19 +11,22 @@ function createCard(card, index) {
         iconsHtml = card.icons.map(icon => `<img src="${icon}" width="20" height="20">`).join('');
     }
     return `
-        <div class="card-1 card-div">
-            <div class="like-icon-div">${iconsHtml}</div>
-            <div class="gow-img-div img-div">
-                <img src="${card.imgSrc}">
+          <div class="card-1 card-div">
+            <div class="card-div-parent">
+                <div class="like-icon-div">${iconsHtml}</div>
+                <div class="gow-img-div img-div">
+                    <img src="${card.imgSrc}">
+                </div>
+                <div class="text-container">
+                <p class="item-title">${card.title}
+                  <button id="myBtn${index}" class="button style4">Read more</button>
+                </p>
+                    <p class="company-name">${card.company}</p>
+                    <p class="position-text">${card.position}</p>
+                    <p class="date">${card.date}</p>
+                </div>
             </div>
-            <div class="text-container">
-                <p class="item-title">${card.title}</p>
-                <p class="company-name">${card.company}</p>
-                <p class="position-text">${card.position}</p>
-                <p class="date">${card.date}</p>
-            </div>
-            <button id="myBtn${index}" class="button style4">Read more</button>
-        </div>
+          </div>
     `;
 }
 

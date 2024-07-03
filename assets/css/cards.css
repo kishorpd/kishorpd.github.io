@@ -49,7 +49,7 @@ body{
 
 
 .container{
-    max-width: 100em;
+    max-width: 60em;
     /* background-color: lightgreen; */
     display: flex;
     flex-wrap: wrap;
@@ -61,6 +61,23 @@ body{
     padding: 3em 1em 1em 1em;
     box-sizing: border-box;
 }
+
+.card-div-parent{
+    width: 15em;
+    min-height: 16em;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    background-color: var(--card-main-color);
+    margin: 0.6em;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: transform 0.2s ease-in-out;
+}
+
+
 
 /* Card Styling */
 .card-div{
@@ -130,6 +147,8 @@ body{
     transform: translateX(-50%); /* Center horizontally */
     color: #ffffff; /* Default color (adjust as needed) */
     display: none; /* Button */
+    
+    font-size: 0.7em;
 }
 
 
@@ -153,7 +172,7 @@ body{
 }
 
 .card-div:hover .like-icon-div {
-    transform: translatey(-70px) scale(1.5);
+    transform: translatey(-270%) scale(1.5);
     width: 70%;
     align-items: center;
     align-content: center;
@@ -171,6 +190,11 @@ body{
 
 .card-1:hover .button.style4 {
     display: block;
+    width: 100%; /* Span the entire width */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%)  translate(0, 105%);
+    transition: transform 0.3s ease;
+    z-index: 999; /* Render on top of everything */
 }
 
 /* ======== text Container Styling general ======== */
@@ -191,9 +215,6 @@ body{
     margin: 0em 0;
     text-align: center;
     
-
-
-
     background-color: var(--card-main-color);
     z-index: 1; /* Render on top of everything */
 
@@ -234,16 +255,17 @@ body{
 
 .card-div:hover .item-title{
     font-size: 1.4em;
-    transform-origin: top;
+    transform-origin: bottom;
     background-color: white;
     align-self: center;
     border-radius: 10px;
     background-color:#FFFFFF;
     border:5px solid;
     border-width: thick;
-    width: 260px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
     height: 100px;
-    transform: translate(0, 50px);
+    transform: translate(0, 250%);
     z-index: 999; /* Render on top of everything */
     transition: transform 0.3s ease;
 }
@@ -276,4 +298,10 @@ body{
 .button.style4:hover {
     color: #c2b2ab; /* Hover color (adjust as needed) */
     background-color: #212121;
+}
+
+
+.card-div:hover .text-container{
+
+    justify-content: flex-end;
 }
