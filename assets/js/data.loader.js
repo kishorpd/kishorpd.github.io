@@ -4,44 +4,6 @@ var modal = document.getElementById("myModal");
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
-// Array of card data
-var cards = [
-  {
-      htmlFile: "Projects/Gazi.html",
-      imgSrc: "images/Projects/marvel.png",
-      title: "Marvel Heroes Omega",
-      company: "Gazillion Entertainment",
-      position: "Associate UI Engineer",
-      date: "31/03/2021 _________ 31/03/2021"
-  },
-  {
-      htmlFile: "Projects/GaziOmega.html",
-      imgSrc: "images/Projects/avengers (1).png",
-      title: "Another Project",
-      company: "Another Company",
-      position: "Senior Developer",
-      date: "01/04/2021 _________ 01/04/2022",
-      icons: [
-          "images/Projects/Icons/unity.png",
-          "images/Projects/Icons/C++.png"
-      ]
-  },
-  {
-      htmlFile: "Projects/FZero.html",
-      imgSrc: "images/Projects/CandyTrap.png",
-      title: "F-ZERO",
-      company: "FIEA",
-      position: "Programmer",
-      date: "2015",
-      icons: [
-          "images/Projects/Icons/unity.png",
-          "images/Projects/Icons/C++.png",
-          "images/Projects/Icons/vr.png"
-      ]
-  },
-    // Add more card data here...
-];
-
 // Function to create card HTML
 function createCard(card, index) {
     let iconsHtml = '';
@@ -65,20 +27,24 @@ function createCard(card, index) {
     `;
 }
 
-// Populate cards in the container
-var container = document.querySelector(".container");
-cards.forEach((card, index) => {
-    container.innerHTML += createCard(card, index);
-});
+// Fetch and process JSON data
+fetch('../../data/projects.json')
+    .then(response => response.json())
+    .then(cards => {
+        var container = document.querySelector(".container");
+        cards.forEach((card, index) => {
+            container.innerHTML += createCard(card, index);
+        });
 
-// Loop through the cards array
-cards.forEach((card, index) => {
-    var btn = document.getElementById(`myBtn${index}`);
-    btn.onclick = function() {
-        modal.style.display = "block";
-        $("#p2").load(card.htmlFile);
-    };
-});
+        // Loop through the cards array
+        cards.forEach((card, index) => {
+            var btn = document.getElementById(`myBtn${index}`);
+            btn.onclick = function() {
+                modal.style.display = "block";
+                $("#p2").load(card.htmlFile);
+            };
+        });
+    });
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
