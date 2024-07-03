@@ -28,7 +28,7 @@ function createCard(card, index) {
 }
 
 // Fetch and process JSON data
-fetch('../../data/projects.json')
+fetch('../../Data/projects.json')
     .then(response => response.json())
     .then(cards => {
         var container = document.querySelector(".container");
