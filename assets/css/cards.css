@@ -187,10 +187,24 @@ body{
     box-sizing: border-box;
 }
 
-.text-container .item-title,
+.text-container .item-title{
+    margin: 0em 0;
+    text-align: center;
+    
+
+
+
+    background-color: var(--card-main-color);
+    z-index: 1; /* Render on top of everything */
+
+    transition: transform 0.3s ease;
+}
+
 .text-container .date{
     margin: 0em 0;
     text-align: center;
+    
+    transition: transform 0.3s ease;
 }
 
 .text-container .item-title{
@@ -231,16 +245,20 @@ body{
     height: 100px;
     transform: translate(0, 50px);
     z-index: 999; /* Render on top of everything */
+    transition: transform 0.3s ease;
 }
 
 .card-div:hover .position-text{
     display: none;
+    transition: transform 0.3s ease;
 }
 .card-div:hover .company-name{
     display: none;
+    transition: transform 0.3s ease;
 }
 .card-div:hover .date{
     display: none;
+    transition: transform 0.3s ease;
 }
 
 .card-div:hover .img-div img{
@@ -251,6 +269,7 @@ body{
 
 .card-div:hover{
     transform: translate(0, -10px);
+    transition: transform 0.3s ease;
 }
 
 
