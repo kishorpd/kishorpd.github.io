@@ -161,34 +161,31 @@ body{
 }
 
 .card-1 .like-icon-div{
-    color: var(--card-1-secondary-color);
-    background-color: var(--card-1-secondary-color);
+    background-color: transparent;
     height: 18em;
 }
 
 
-
 .card-div .like-icon-div {
     
+    pointer-events: none;
     transform: translateY(0) scale(1);
     transition: transform 0.3s ease; /* Add a transition for the transform property */
 }
 
 .card-div:hover .like-icon-div {
 
-    
-
-
-    width: 70%;
-    
-    height: 14%;
+    pointer-events: none;
+    height: 10%;
     
     border-radius: 10px;
     z-index: 1999; /* Render on top of everything */
+    background-color: var(--card-1-secondary-color);
     
     justify-content: center;
     
-    transform: translateY(-190px) scale(1.5);
+    transform: translateY(290px) scale(1.5);
+    width: 65%;
     transition: 
     transform 0.3s ease,
     align-items 0.3s,
@@ -202,11 +199,11 @@ body{
 
 
 /* If the screen size is 600px or less, set the width of .modal-content to 100% */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1400px) {
 
     .card-div:hover .like-icon-div {
-        transform: translatey(-190%) scale(1.5);
-        width: 70%;
+        transform: translatey(670%) scale(1);
+        width: 60%;
         align-items: center;
         vertical-align: top;
         align-content: center;
@@ -219,15 +216,17 @@ body{
         transform 0.3s ease,
         align-items 0.3s,
         width 0.3s,
+        scale 0.01s,
         border-radius 0.3s ease; /* Add animation */
     }
 }
 
 .card-1:hover .button.style4 {
+    font-size: 0.6em;
     display: block;
     width: 100%; /* Span the entire width */
     left: 50%; /* Center horizontally */
-    transform: translateX(-50%)  translate(0, 105%);
+    transform: translateX(-50%)  translate(0, 105%) scale(0.8);
     transition: transform 0.3s ease;
     z-index: 3999; /* Render on top of everything */
 }
@@ -301,7 +300,7 @@ body{
     white-space: nowrap;
     text-overflow: ellipsis;
     height: 100px;
-    transform: translate(0, -150%);
+    transform: translate(0, -180%);
     z-index: 999; /* Render on top of everything */
     transition: transform 0.3s ease;
 }
@@ -328,7 +327,7 @@ body{
 
 .card-div:hover{
     
-    transform: translate(0, -10px) scaleY(1.1);
+    transform:  scaleY(1.1);
     transition: transform 0.3s ease;
 }
 
