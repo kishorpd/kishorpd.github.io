@@ -1,19 +1,33 @@
 [
-    {
-      "htmlFile": "Projects/MARS_VR_Lab.html",
-      "imgSrc": "images/Projects/vr_chicken.png",
-      "title": "Poultry Frenzy - Catch 'Em All",
-      "company": "MARS VR Lab",
+  {
+    "htmlFile": "Projects/MARS_VR_Lab.html",
+    "imgSrc": "images/Projects/vr_chicken.png",
+    "title": "Poultry Frenzy",
+    "company": "MARS VR Lab",
+    "position": "Senior Software Engineer",
+    "date": "May 2021 - Now",
+    "icons": [
+      "images/Projects/Icons/Unity.png",
+      "images/Projects/Icons/multiplayer.png",
+      "images/Projects/Icons/CS.png",
+      "images/Projects/Icons/PC.png",
+      "images/Projects/Icons/vr.png"
+    ]
+  },
+  {
+    "htmlFile": "Projects/MARS_VR_Lab.html",
+    "imgSrc": "images/Projects/vr_wheels.png",
+    "title": "X-POD",
+    "company": "MARS VR Lab",
       "position": "Senior Software Engineer",
-      "date": "May 2021 - Now"
-    },
-    {
-      "htmlFile": "Projects/MARS_VR_Lab.html",
-      "imgSrc": "images/Projects/vr_wheels.png",
-      "title": "X-POD",
-      "company": "MARS VR Lab",
-      "position": "Senior Software Engineer",
-      "date": "May 2021 - Now"
+      "date": "May 2021 - Now",
+      "icons": [
+        "images/Projects/Icons/Unity.png",
+        "images/Projects/Icons/PC.png",
+        "images/Projects/Icons/multiplayer.png",
+        "images/Projects/Icons/CS.png",
+        "images/Projects/Icons/vr.png"
+      ]
     },
     {
       "htmlFile": "Projects/GaziOmega.html",
@@ -21,7 +35,13 @@
       "title": "Marvel Heroes Omega",
       "company": "Gazillion Entertainment",
       "position": "Associate UI Engineer",
-      "date": "February 2017 - August 2017"
+      "date": "February 2017 - August 2017",
+      "icons": [
+        "images/Projects/Icons/Unreal.png",
+        "images/Projects/Icons/multiplayer.png",
+        "images/Projects/Icons/PC.png",
+        "images/Projects/Icons/C++.png"
+      ]
     },
     {
       "htmlFile": "Projects/Gazi.html",
@@ -29,9 +49,11 @@
       "title": "Marvel Heroes 2015",
       "company": "Gazillion Entertainment",
       "position": "UI Engineer Intern",
-      "date": "01/04/2021 _________ 01/04/2022",
+      "date": "August 2016 - December 2017",
       "icons": [
-        "images/Projects/Icons/Unity.png",
+        "images/Projects/Icons/Unreal.png",
+        "images/Projects/Icons/multiplayer.png",
+        "images/Projects/Icons/PC.png",
         "images/Projects/Icons/C++.png"
       ]
     },
@@ -41,7 +63,13 @@
       "title": "Autonomous Car Data",
       "company": "Toyota InfoTechnology, USA",
       "position": "Software Developer",
-      "date": "September 2017 - January 2018"
+      "date": "Sept 2017 - Jan 2018",
+      "icons": [
+        "images/Projects/Icons/Unity.png",
+        "images/Projects/Icons/multiplayer.png",
+        "images/Projects/Icons/PC.png",
+        "images/Projects/Icons/CS.png"
+      ]
     },
     {
       "htmlFile": "Projects/OctTree.html",
@@ -51,9 +79,24 @@
       "position": "Programmer",
       "date": "2015",
       "icons": [
-        "images/Projects/Icons/Unity.png",
         "images/Projects/Icons/CS.png",
-        "images/Projects/Icons/vr.png"
+        "images/Projects/Icons/PC.png",
+        "images/Projects/Icons/webgl.png",
+        "images/Projects/Icons/Unity.png"
+      ]
+    },
+    {
+      "htmlFile": "Projects/QuadTree.html",
+      "imgSrc": "images/Projects/QTree.png",
+      "title": "Quad Tree",
+      "company": "FIEA",
+      "position": "Programmer",
+      "date": "2015",
+      "icons": [
+        "images/Projects/Icons/CS.png",
+        "images/Projects/Icons/webgl.png",
+        "images/Projects/Icons/PC.png",
+        "images/Projects/Icons/Unity.png"
       ]
     },
     {
@@ -64,9 +107,11 @@
       "position": "Programmer",
       "date": "2015",
       "icons": [
-        "images/Projects/Icons/Unity.png",
         "images/Projects/Icons/C++.png",
-        "images/Projects/Icons/vr.png"
+        "images/Projects/Icons/PC.png",
+        "images/Projects/Icons/opengl.png",
+        "images/Projects/Icons/DX.png",
+        "images/Projects/Icons/xbox.png"
       ]
     },
     {
@@ -75,7 +120,13 @@
       "title": "LifeRaft Navigator",
       "company": "Halifax, NS, Canada",
       "position": "Intern",
-      "date": "September 2020 - December 2020"
+      "date": "Sept 2020 - Dec 2020",
+      "icons": [
+        "images/Projects/Icons/Unity.png",
+        "images/Projects/Icons/C++.png",
+        "images/Projects/Icons/PC.png",
+        "images/Projects/Icons/vr.png"
+      ]
     },
     {
       "htmlFile": "Projects/Live_Wallpaper_Engine.html",
@@ -83,7 +134,13 @@
       "title": "Live Wallpaper Engine for Android",
       "company": "Home, Pune, India",
       "position": "Software Engineer [Personal Project]",
-      "date": "May 2019 - December 2020"
+      "date": "May 2019 - Dec 2020",
+      "icons": [
+        "images/Projects/Icons/Unity.png",
+        "images/Projects/Icons/C++.png",
+        "images/Projects/Icons/PC.png",
+        "images/Projects/Icons/vr.png"
+      ]
     },
     {
       "htmlFile": "Projects/AiSolve_Limited.html",
@@ -91,7 +148,13 @@
       "title": "AiSolve Limited",
       "company": "Bangalore, KN, India",
       "position": "Software Engineer",
-      "date": "March 2018 - April 2019"
+      "date": "March 2018 - April 2019",
+      "icons": [
+        "images/Projects/Icons/Unity.png",
+        "images/Projects/Icons/C++.png",
+        "images/Projects/Icons/PC.png",
+        "images/Projects/Icons/vr.png"
+      ]
     },
     {
       "htmlFile": "Projects/AiSolve_Limited.html",
@@ -99,7 +162,13 @@
       "title": "AiSolve Limited",
       "company": "Bangalore, KN, India",
       "position": "Software Engineer",
-      "date": "March 2018 - April 2019"
+      "date": "March 2018 - April 2019",
+      "icons": [
+        "images/Projects/Icons/Unity.png",
+        "images/Projects/Icons/C++.png",
+        "images/Projects/Icons/PC.png",
+        "images/Projects/Icons/vr.png"
+      ]
     },
     {
       "htmlFile": "Projects/AiSolve_Limited.html",
@@ -107,7 +176,13 @@
       "title": "AiSolve Limited",
       "company": "Bangalore, KN, India",
       "position": "Software Engineer",
-      "date": "March 2018 - April 2019"
+      "date": "March 2018 - April 2019",
+      "icons": [
+        "images/Projects/Icons/Unity.png",
+        "images/Projects/Icons/C++.png",
+        "images/Projects/Icons/PC.png",
+        "images/Projects/Icons/vr.png"
+      ]
     },
     {
       "htmlFile": "Projects/ResMan.html",
@@ -115,7 +190,13 @@
       "title": "RTS Resource Manager",
       "company": "-",
       "position": "Softare Engineer",
-      "date": "February 2015"
+      "date": "February 2015",
+      "icons": [
+        "images/Projects/Icons/Unity.png",
+        "images/Projects/Icons/C++.png",
+        "images/Projects/Icons/PC.png",
+        "images/Projects/Icons/vr.png"
+      ]
     }
   ]
   
