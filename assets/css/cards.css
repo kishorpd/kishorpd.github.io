@@ -49,8 +49,10 @@ body{
 
 
 .container{
-    max-width: 100em;
+    max-width: 160em;
     /* background-color: lightgreen; */
+    transform-origin: 50% -10% 0px;
+    align-self: center;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -60,7 +62,24 @@ body{
     min-height: 4em;
     padding: 3em 1em 1em 1em;
     box-sizing: border-box;
+    transform: scale(0.8);
 }
+
+.card-div-parent{
+    width: 15em;
+    min-height: 16em;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    background-color: var(--card-main-color);
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: transform 0.2s ease-in-out;
+}
+
+
 
 /* Card Styling */
 .card-div{
@@ -71,7 +90,7 @@ body{
     justify-items: center;
     align-items: center;
     background-color: var(--card-main-color);
-    margin: 0.6em;
+    margin: 1.8em;
     box-sizing: border-box;
     border-radius: 10px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -79,7 +98,7 @@ body{
   }
 
   .card-div:hover {
-    background-color: var(--card-1-secondary-color);
+    background-color:var(--card-1-secondary-color);
   }
 
 /* ======== General styling of all cards and heart divs ========== */
@@ -122,16 +141,33 @@ body{
 
 
 .button.style4 {
+
+
+
     /* Position the button at the bottom */
     position: absolute;
     bottom: 0;
     width: 100%; /* Span the entire width */
     left: 50%; /* Center horizontally */
     transform: translateX(-50%); /* Center horizontally */
-    color: #212121; /* Default color (adjust as needed) */
+    color: #ffffff; /* Default color (adjust as needed) */
     display: none; /* Button */
+    
+    font-size: 0.7em;
 }
 
+
+
+.icon-img {
+    pointer-events: fill;
+    margin-left: 2px;
+}
+
+.icon-img:hover {
+    background-color: rgba(255, 0, 0, 0.8); /* Red with 40% transparency */
+    transform: scale(1.4);
+    transition: scale 0.3s ease; /* Add a transition for the transform property */
+}
 
 .gow-img-div img{
     width: 95%;
@@ -139,42 +175,80 @@ body{
 }
 
 .card-1 .like-icon-div{
-    color: var(--card-1-secondary-color);
-    background-color: var(--card-1-secondary-color);
+    background-color: transparent;
     height: 18em;
 }
 
 
-
 .card-div .like-icon-div {
-    transition: transform 0.4s ease-in-out;
-    position: relative; /* Ensure the element is positioned */
+    
+    pointer-events: none;
+    transform: translateY(0) scale(1);
+    transition: transform 0.3s ease,; /* Add a transition for the transform property */
 }
 
 .card-div:hover .like-icon-div {
-    transform: translatey(-70px) scale(1.5);
-    width: 70%;
-    align-items: center;
-    align-content: center;
+
+    pointer-events: none;
+    height: 10%;
     
-
     border-radius: 10px;
-    z-index: 999; /* Render on top of everything */
-
+    z-index: 1999; /* Render on top of everything */
+    background-color: var(--card-1-secondary-color);
+    
+    justify-content: center;
+    
+    transform: translateY(290px) scale(1.5);
+    width: 65%;
     transition: 
     transform 0.3s ease,
     align-items 0.3s,
     width 0.3s,
+    justify-content 0.8s,
     border-radius 0.3s ease; /* Add animation */
 }
 
+
+
+
+
+/* If the screen size is 600px or less, set the width of .modal-content to 100% */
+@media screen and (max-width: 1400px) {
+
+    .card-div:hover .like-icon-div {
+        transform: translatey(670%) scale(1);
+        width: 60%;
+        align-items: center;
+        vertical-align: top;
+        align-content: center;
+        height: 14%;
+
+        border-radius: 10px;
+        z-index: 1999; /* Render on top of everything */
+
+        transition: 
+        transform 0.3s ease,
+        align-items 0.3s,
+        width 0.3s,
+        scale 0.01s,
+        border-radius 0.3s ease; /* Add animation */
+    }
+}
+
 .card-1:hover .button.style4 {
+    font-size: 0.6em;
     display: block;
+    width: 100%; /* Span the entire width */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%)  translate(0, 105%) scale(0.8);
+    transition: transform 0.3s ease;
+    z-index: 3999; /* Render on top of everything */
 }
 
 /* ======== text Container Styling general ======== */
 
 .text-container{
+   
     width: 100%;
     height: 5%;
     display: flex;
@@ -186,10 +260,21 @@ body{
     box-sizing: border-box;
 }
 
-.text-container .item-title,
+.text-container .item-title{
+    margin: 0em 0;
+    text-align: center;
+    
+    background-color: var(--card-main-color);
+    
+    transition: transform 0.3s ease;
+    z-index: 1; /* Render on top of everything */
+}
+
 .text-container .date{
     margin: 0em 0;
     text-align: center;
+    
+    transition: transform 0.3s ease;
 }
 
 .text-container .item-title{
@@ -215,18 +300,83 @@ body{
 
 
 /* ====== Hover effects ======= */
+
+
+.card-div:hover .item-title{
+    font-size: 1.4em;
+    transform-origin: bottom;
+    background-color: white;
+    align-self: center;
+    border-radius: 10px;
+    background-color:#FFFFFF;
+    border:5px solid;
+    border-width: thick;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    height: 100px;
+    transform: translate(0, -180%);
+    z-index: 999; /* Render on top of everything */
+    transition: transform 0.3s ease;
+}
+
+.card-div:hover .position-text{
+    display: none;
+    transition: transform 0.3s ease;
+}
+.card-div:hover .company-name{
+    display: none;
+    transition: transform 0.3s ease;
+}
+.card-div:hover .date{
+    display: none;
+    transition: transform 0.3s ease;
+}
+
 .card-div:hover .img-div img{
-    transform: translateY(17.5%) scale(1.3);
+    transform: translateY(-17.5%) scale(1.3);
     
+    z-index: 199; /* Render on top of everything */
     transition: transform 0.3s ease-in-out
 }
 
 .card-div:hover{
-    transform: translate(0, -10px);
+    
+    transform:  scaleY(1.1);
+    transition: transform 0.3s ease;
+}
+
+
+
+/* If the screen size is 600px or less, set the width of .modal-content to 100% */
+@media screen and (max-width: 600px) {
+
+    .card-div:hover .img-div img{
+        transform: translateY(17.5%) scale(1.3);
+        
+        z-index: 199; /* Render on top of everything */
+        transition: transform 0.3s ease-in-out
+    }
+}
+    
+
+.card-div:hover .card-div-parent{
+    position: relative;
+    background-color: transparent;
+    transform: scaleY(.9);
+    transition: transform 0.3s ease;
+    margin-top: auto;
 }
 
 
 .button.style4:hover {
     color: #c2b2ab; /* Hover color (adjust as needed) */
     background-color: #212121;
+    z-index: 1299;
+}
+
+
+.card-div:hover .text-container{
+    justify-content: flex-end;
+    margin-top: auto; /* Align button to the bottom */
+    transform-origin: bottom;
 }

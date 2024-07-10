@@ -8,24 +8,32 @@ var span = document.getElementsByClassName("close")[0];
 function createCard(card, index) {
     let iconsHtml = '';
     if (card.icons) {
-        iconsHtml = card.icons.map(icon => `<img src="${icon}" width="20" height="20">`).join('');
+        iconsHtml = card.icons.map(icon => `<div class="icon-img"><img src="${icon}" class="icon-img" width="20" height="20"></div>`).join('');
     }
+
+    // Check if htmlFile property exists
+    const readMoreButton = card.htmlFile ? `<button id="myBtn${index}" class="button style4">Read more</button>` : '';
+
     return `
         <div class="card-1 card-div">
-            <div class="like-icon-div">${iconsHtml}</div>
-            <div class="gow-img-div img-div">
-                <img src="${card.imgSrc}">
-            </div>
-            <div class="text-container">
-                <p class="item-title">${card.title}</p>
-                <p class="company-name">${card.company}</p>
-                <p class="position-text">${card.position}</p>
-                <p class="date">${card.date}</p>
-                <button id="myBtn${index}" class="button style4">Read more</button>
+            <div class="card-div-parent">
+                <div class="like-icon-div">${iconsHtml}</div>
+                <div class="gow-img-div img-div">
+                    <img src="${card.imgSrc}">
+                </div>
+                <div class="text-container">
+                    <p class="item-title">${card.title}
+                        ${readMoreButton}
+                    </p>
+                    <p class="company-name">${card.company}</p>
+                    <p class="position-text">${card.position}</p>
+                    <p class="date">${card.date}</p>
+                </div>
             </div>
         </div>
     `;
 }
+
 
 // Fetch and process JSON data
 fetch('../../Data/projects.json')
