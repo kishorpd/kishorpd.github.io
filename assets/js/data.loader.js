@@ -10,6 +10,10 @@ function createCard(card, index) {
     if (card.icons) {
         iconsHtml = card.icons.map(icon => `<div class="icon-img"><img src="${icon}" class="icon-img" width="20" height="20"></div>`).join('');
     }
+
+    // Check if htmlFile property exists
+    const readMoreButton = card.htmlFile ? `<button id="myBtn${index}" class="button style4">Read more</button>` : '';
+
     return `
         <div class="card-1 card-div">
             <div class="card-div-parent">
@@ -19,7 +23,7 @@ function createCard(card, index) {
                 </div>
                 <div class="text-container">
                     <p class="item-title">${card.title}
-                        <button id="myBtn${index}" class="button style4">Read more</button>
+                        ${readMoreButton}
                     </p>
                     <p class="company-name">${card.company}</p>
                     <p class="position-text">${card.position}</p>
@@ -29,6 +33,7 @@ function createCard(card, index) {
         </div>
     `;
 }
+
 
 // Fetch and process JSON data
 fetch('../../Data/projects.json')
