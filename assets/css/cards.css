@@ -60,9 +60,11 @@ body{
     align-content: flex-start;
     margin: auto;
     min-height: 4em;
+    height: max-content;
     padding: 3em 1em 1em 1em;
     box-sizing: border-box;
     transform: scale(0.8);
+    
 }
 
 .card-div-parent{
@@ -232,6 +234,25 @@ body{
         width 0.3s,
         scale 0.01s,
         border-radius 0.3s ease; /* Add animation */
+    }
+
+    
+
+    .container{
+        max-width: 160em;
+        /* background-color: lightgreen; */
+        transform-origin: 50% -10% 0px;
+        align-self: center;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-content: flex-start;
+        margin: auto;
+        min-height: 4em;
+        padding: 3em 1em 1em 1em;
+        box-sizing: border-box;
+        transform: scale(0.9);
     }
 }
 
