@@ -1,6 +1,5 @@
 [
   {
-    "htmlFile": "Projects/vr_chicken.html",
     "imgSrc": "images/Projects/vr_chicken.png",
     "title": "Poultry Frenzy",
     "company": "MARS VR Lab",
@@ -15,7 +14,6 @@
     ]
   },
   {
-    "htmlFile": "Projects/vr_wheels.html",
     "imgSrc": "images/Projects/vr_wheels.png",
     "title": "X-POD",
     "company": "MARS VR Lab",
@@ -62,7 +60,6 @@
       ]
     },
     {
-      "htmlFile": "Projects/Toyota_InfoTechnology_Center.html",
       "imgSrc": "images/Projects/toyota_info_technology_center.png",
       "title": "Autonomous Car Data",
       "company": "Toyota InfoTechnology, USA",
@@ -76,7 +73,6 @@
       ]
     },
     {
-      "htmlFile": "Projects/OctTree.html",
       "imgSrc": "images/Projects/octree1.png",
       "title": "OctTree",
       "company": "FIEA",
@@ -90,7 +86,6 @@
       ]
     },
     {
-      "htmlFile": "Projects/QuadTree.html",
       "imgSrc": "images/Projects/QTree.png",
       "title": "Quad Tree",
       "company": "FIEA",
@@ -104,7 +99,6 @@
       ]
     },
     {
-      "htmlFile": "Projects/FZero.html",
       "imgSrc": "images/Projects/FZero.png",
       "title": "F-ZERO",
       "company": "FIEA",
@@ -119,8 +113,7 @@
       ]
     },
     {
-      "htmlFile": "Projects/Channeler.html",
-      "imgSrc": "images/Projects/Channeler.png",
+      "imgSrc": "images/Projects/channeler.png",
       "title": "The Channeler",
       "company": "FIEA",
       "position": "Programmer",
@@ -133,7 +126,6 @@
       ]
     },
     {
-      "htmlFile": "Projects/LilRubes.html",
       "imgSrc": "images/Projects/LilRubes.png",
       "title": "Lil Rube's Machine",
       "company": "FIEA",
@@ -147,7 +139,6 @@
       ]
     },
     {
-      "htmlFile": "Projects/Princess.html",
       "imgSrc": "images/Projects/Princess.png",
       "title": "Princess Panic",
       "company": "FIEA",
@@ -162,7 +153,6 @@
       ]
     },
     {
-      "htmlFile": "Projects/VRManual.html",
       "imgSrc": "images/Projects/VRManual.png",
       "title": "VR Manual",
       "company": "AiSolve Limited",
@@ -177,7 +167,6 @@
       ]
     },
     {
-      "htmlFile": "Projects/CandyTrap.html",
       "imgSrc": "images/Projects/CandyTrap.png",
       "title": "Candy Trap",
       "company": "FIEA",
@@ -191,7 +180,6 @@
       ]
     },
     {
-      "htmlFile": "Projects/LifeRaft_Navigator.html",
       "imgSrc": "images/Projects/img_classification.png",
       "title": "Image Classification",
       "company": "LifeRaft Navigator",
@@ -205,7 +193,6 @@
       ]
     },
     {
-      "htmlFile": "Projects/Live_Wallpaper_Engine.html",
       "imgSrc": "images/Projects/liveWP.png",
       "title": "Live Wallpaper Engine",
       "company": "Self-employed",
@@ -221,7 +208,6 @@
       ]
     },
     {
-      "htmlFile": "Projects/Live_Wallpaper_Engine.html",
       "imgSrc": "images/Projects/Spring.png",
       "title": "Live Wallpaper Engine",
       "company": "Self-employed",
@@ -237,7 +223,6 @@
       ]
     },
     {
-      "htmlFile": "Projects/MLAgents.html",
       "imgSrc": "images/Projects/mlAgents.png",
       "title": "ML-Agents",
       "company": "Self-employed",
@@ -251,7 +236,6 @@
       ]
     },
     {
-      "htmlFile": "Projects/Xmas.html",
       "imgSrc": "images/Projects/Xmas.png",
       "title": "Christmas in Igloo Pro",
       "company": "Self-employed",
@@ -266,7 +250,6 @@
       ]
     },
     {
-      "htmlFile": "Projects/FoodTruckRush.html",
       "imgSrc": "images/Projects/vr_bear.png",
       "title": "Food Truck Rush",
       "company": "AiSolve Limited",
@@ -281,7 +264,6 @@
       ]
     },
     {
-      "htmlFile": "Projects/MoonlightHunt.html",
       "imgSrc": "images/Projects/vr_moonlight.png",
       "title": "Moonlight Hunt",
       "company": "AiSolve Limited",
@@ -296,7 +278,6 @@
       ]
     },
     {
-      "htmlFile": "Projects/ClockTower.html",
       "imgSrc": "images/Projects/clock_tower.png",
       "title": "Clock Tower",
       "company": "AiSolve Limited",
@@ -311,7 +292,6 @@
       ]
     },
     {
-      "htmlFile": "Projects/ResMan.html",
       "imgSrc": "images/Projects/ResMan.png",
       "title": "RTS Resource Manager",
       "company": "SOLO",
@@ -323,7 +303,6 @@
       ]
     },
     {
-      "htmlFile": "Projects/FileCompressor.html",
       "imgSrc": "images/Projects/huffman.png",
       "title": "Huffman Compressor",
       "company": "SOLO",
@@ -335,7 +314,6 @@
       ]
     },
     {
-      "htmlFile": "Projects/FileCompressor.html",
       "imgSrc": "images/Projects/LifeTill2015.png",
       "title": "Life Till 2015",
       "company": "SOLO",
@@ -353,7 +331,6 @@
       ]
     },
     {
-      "htmlFile": "Projects/Robocon.html",
       "imgSrc": "images/Projects/Omni-bot.png",
       "title": "Omni-bot",
       "company": "SOLO",
