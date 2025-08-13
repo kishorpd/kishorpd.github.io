@@ -56,5 +56,5 @@ fetch('../../Data/projects.json')
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
-    modal.style.display = "none";
+    modal.style.display = "none"; 
 };
