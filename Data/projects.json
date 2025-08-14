@@ -1,5 +1,7 @@
 [
   {
+    "htmlFile_": "Projects/poultry-frenzy.html",
+    "htmlFile": "Projects/coming-soon.html",
     "imgSrc": "images/Projects/vr_chicken.png",
     "title": "Poultry Frenzy",
     "company": "MARS VR Lab",
@@ -14,331 +16,376 @@
     ]
   },
   {
+    "htmlFile_": "Projects/x-pod.html",
+    "htmlFile": "Projects/coming-soon.html",
     "imgSrc": "images/Projects/vr_wheels.png",
     "title": "X-POD",
     "company": "MARS VR Lab",
-      "position": "Senior Software Engineer",
-      "date": "May 2021 - Now",
-      "icons": [
-        "images/Projects/Icons/Unity.png",
-        "images/Projects/Icons/PC.png",
-        "images/Projects/Icons/multiplayer.png",
-        "images/Projects/Icons/CS.png",
-        "images/Projects/Icons/vr.png"
-      ]
-    },
-    {
-      "imgSrc": "images/Projects/marvel.png",
-      "title": "Marvel Heroes Omega",
-      "company": "Gazillion Entertainment",
-      "position": "Associate UI Engineer",
-      "date": "February 2017 - August 2017",
-      "icons": [
-        "images/Projects/Icons/flash.png",
-        "images/Projects/Icons/AS.png",
-        "images/Projects/Icons/Unreal.png",
-        "images/Projects/Icons/multiplayer.png",
-        "images/Projects/Icons/PC.png",
-        "images/Projects/Icons/C++.png"
-      ]
-    },
-    {
-      "imgSrc": "images/Projects/avengers (1).png",
-      "title": "Marvel Heroes 2015",
-      "company": "Gazillion Entertainment",
-      "position": "UI Engineer Intern",
-      "date": "August 2016 - December 2017",
-      "icons": [
-        "images/Projects/Icons/flash.png",
-        "images/Projects/Icons/AS.png",
-        "images/Projects/Icons/Unreal.png",
-        "images/Projects/Icons/multiplayer.png",
-        "images/Projects/Icons/PC.png",
-        "images/Projects/Icons/C++.png"
-      ]
-    },
-    {
-      "imgSrc": "images/Projects/toyota_info_technology_center.png",
-      "title": "Autonomous Car Data",
-      "company": "Toyota InfoTechnology, USA",
-      "position": "Software Developer",
-      "date": "Sept 2017 - Jan 2018",
-      "icons": [
-        "images/Projects/Icons/Unity.png",
-        "images/Projects/Icons/multiplayer.png",
-        "images/Projects/Icons/PC.png",
-        "images/Projects/Icons/CS.png"
-      ]
-    },
-    {
-      "imgSrc": "images/Projects/octree1.png",
-      "title": "OctTree",
-      "company": "FIEA",
-      "position": "Programmer",
-      "date": "2015",
-      "icons": [
-        "images/Projects/Icons/CS.png",
-        "images/Projects/Icons/PC.png",
-        "images/Projects/Icons/webgl.png",
-        "images/Projects/Icons/Unity.png"
-      ]
-    },
-    {
-      "imgSrc": "images/Projects/QTree.png",
-      "title": "Quad Tree",
-      "company": "FIEA",
-      "position": "Programmer",
-      "date": "2015",
-      "icons": [
-        "images/Projects/Icons/CS.png",
-        "images/Projects/Icons/webgl.png",
-        "images/Projects/Icons/PC.png",
-        "images/Projects/Icons/Unity.png"
-      ]
-    },
-    {
-      "imgSrc": "images/Projects/FZero.png",
-      "title": "F-ZERO",
-      "company": "FIEA",
-      "position": "Programmer",
-      "date": "2015",
-      "icons": [
-        "images/Projects/Icons/C++.png",
-        "images/Projects/Icons/PC.png",
-        "images/Projects/Icons/opengl.png",
-        "images/Projects/Icons/DX.png",
-        "images/Projects/Icons/xbox.png"
-      ]
-    },
-    {
-      "imgSrc": "images/Projects/channeler.png",
-      "title": "The Channeler",
-      "company": "FIEA",
-      "position": "Programmer",
-      "date": "2015",
-      "icons": [
-        "images/Projects/Icons/Unreal.png",
-        "images/Projects/Icons/C++.png",
-        "images/Projects/Icons/p4.png",
-        "images/Projects/Icons/PC.png"
-      ]
-    },
-    {
-      "imgSrc": "images/Projects/LilRubes.png",
-      "title": "Lil Rube's Machine",
-      "company": "FIEA",
-      "position": "Programmer",
-      "date": "2015",
-      "icons": [
-        "images/Projects/Icons/Unreal.png",
-        "images/Projects/Icons/C++.png",
-        "images/Projects/Icons/p4.png",
-        "images/Projects/Icons/PC.png"
-      ]
-    },
-    {
-      "imgSrc": "images/Projects/Princess.png",
-      "title": "Princess Panic",
-      "company": "FIEA",
-      "position": "Programmer",
-      "date": "2015",
-      "icons": [
-        "images/Projects/Icons/Unity.png",
-        "images/Projects/Icons/android.png",
-        "images/Projects/Icons/CS.png",
-        "images/Projects/Icons/p4.png",
-        "images/Projects/Icons/PC.png"
-      ]
-    },
-    {
-      "imgSrc": "images/Projects/VRManual.png",
-      "title": "VR Manual",
-      "company": "AiSolve Limited",
-      "position": "Software Engineer",
-      "date": "March 2018 - April 2019",
-      "icons": [
-        "images/Projects/Icons/Unity.png",
-        "images/Projects/Icons/plastic.png",
-        "images/Projects/Icons/CS.png",
-        "images/Projects/Icons/PC.png",
-        "images/Projects/Icons/vr.png"
-      ]
-    },
-    {
-      "imgSrc": "images/Projects/CandyTrap.png",
-      "title": "Candy Trap",
-      "company": "FIEA",
-      "position": "Programmer",
-      "date": "2015",
-      "icons": [
-        "images/Projects/Icons/flash.png",
-        "images/Projects/Icons/AS.png",
-        "images/Projects/Icons/p4.png",
-        "images/Projects/Icons/PC.png"
-      ]
-    },
-    {
-      "imgSrc": "images/Projects/img_classification.png",
-      "title": "Image Classification",
-      "company": "LifeRaft Navigator",
-      "position": "Research Assistant",
-      "date": "Sept 2020 - Dec 2020",
-      "icons": [
-        "images/Projects/Icons/java.png",
-        "images/Projects/Icons/PC.png",
-        "images/Projects/Icons/git.png",
-        "images/Projects/Icons/python.png"
-      ]
-    },
-    {
-      "imgSrc": "images/Projects/liveWP.png",
-      "title": "Live Wallpaper Engine",
-      "company": "Self-employed",
-      "position": "Software Engineer",
-      "date": "Sept 2018 - Dec 2018",
-      "icons": [
-        "images/Projects/Icons/Unity.png",
-        "images/Projects/Icons/CS.png",
-        "images/Projects/Icons/git.png",
-        "images/Projects/Icons/android.png",
-        "images/Projects/Icons/PC.png",
-        "images/Projects/Icons/java.png"
-      ]
-    },
-    {
-      "imgSrc": "images/Projects/Spring.png",
-      "title": "Live Wallpaper Engine",
-      "company": "Self-employed",
-      "position": "Software Engineer",
-      "date": "Sept 2018 - Dec 2018",
-      "icons": [
-        "images/Projects/Icons/Unity.png",
-        "images/Projects/Icons/git.png",
-        "images/Projects/Icons/CS.png",
-        "images/Projects/Icons/android.png",
-        "images/Projects/Icons/PC.png",
-        "images/Projects/Icons/java.png"
-      ]
-    },
-    {
-      "imgSrc": "images/Projects/mlAgents.png",
-      "title": "ML-Agents",
-      "company": "Self-employed",
-      "position": "Software Engineer",
-      "date": "Nov 2023 - Feb 2024",
-      "icons": [
-        "images/Projects/Icons/Unity.png",
-        "images/Projects/Icons/git.png",
-        "images/Projects/Icons/CS.png",
-        "images/Projects/Icons/PC.png"
-      ]
-    },
-    {
-      "imgSrc": "images/Projects/Xmas.png",
-      "title": "Christmas in Igloo Pro",
-      "company": "Self-employed",
-      "position": "Software Engineer",
-      "date": "May 2019 - Dec 2020",
-      "icons": [
-        "images/Projects/Icons/Unity.png",
-        "images/Projects/Icons/CS.png",
-        "images/Projects/Icons/android.png",
-        "images/Projects/Icons/PC.png",
-        "images/Projects/Icons/java.png"
-      ]
-    },
-    {
-      "imgSrc": "images/Projects/vr_bear.png",
-      "title": "Food Truck Rush",
-      "company": "AiSolve Limited",
-      "position": "Software Engineer",
-      "date": "March 2018 - April 2019",
-      "icons": [
-        "images/Projects/Icons/Unity.png",
-        "images/Projects/Icons/plastic.png",
-        "images/Projects/Icons/CS.png",
-        "images/Projects/Icons/PC.png",
-        "images/Projects/Icons/vr.png"
-      ]
-    },
-    {
-      "imgSrc": "images/Projects/vr_moonlight.png",
-      "title": "Moonlight Hunt",
-      "company": "AiSolve Limited",
-      "position": "Software Engineer",
-      "date": "March 2018 - April 2019",
-      "icons": [
-        "images/Projects/Icons/Unity.png",
-        "images/Projects/Icons/plastic.png",
-        "images/Projects/Icons/CS.png",
-        "images/Projects/Icons/PC.png",
-        "images/Projects/Icons/vr.png"
-      ]
-    },
-    {
-      "imgSrc": "images/Projects/clock_tower.png",
-      "title": "Clock Tower",
-      "company": "AiSolve Limited",
-      "position": "Software Engineer",
-      "date": "March 2018 - April 2019",
-      "icons": [
-        "images/Projects/Icons/plastic.png",
-        "images/Projects/Icons/Unreal.png",
-        "images/Projects/Icons/C++.png",
-        "images/Projects/Icons/PC.png",
-        "images/Projects/Icons/vr.png"
-      ]
-    },
-    {
-      "imgSrc": "images/Projects/ResMan.png",
-      "title": "RTS Resource Manager",
-      "company": "SOLO",
-      "position": "Softare Engineer",
-      "date": "February 2015",
-      "icons": [
-        "images/Projects/Icons/C++.png",
-        "images/Projects/Icons/PC.png"
-      ]
-    },
-    {
-      "imgSrc": "images/Projects/huffman.png",
-      "title": "Huffman Compressor",
-      "company": "SOLO",
-      "position": "Softare Engineer",
-      "date": "February 2015",
-      "icons": [
-        "images/Projects/Icons/C++.png",
-        "images/Projects/Icons/PC.png"
-      ]
-    },
-    {
-      "imgSrc": "images/Projects/LifeTill2015.png",
-      "title": "Life Till 2015",
-      "company": "SOLO",
-      "position": "Softare Engineer",
-      "date": "2006 - 2015",
-      "icons": [
-        
-        "images/Projects/Icons/android.png",
-        "images/Projects/Icons/java.png",
-        "images/Projects/Icons/maya.png",
-        "images/Projects/Icons/flash.png",
-        "images/Projects/Icons/AS.png",
-        "images/Projects/Icons/C++.png",
-        "images/Projects/Icons/PC.png"
-      ]
-    },
-    {
-      "imgSrc": "images/Projects/Omni-bot.png",
-      "title": "Omni-bot",
-      "company": "SOLO",
-      "position": "Softare Engineer",
-      "date": "February 2014",
-      "icons": [
-        "images/Projects/Icons/ASM.png",
-        "images/Projects/Icons/C++.png",
-        "images/Projects/Icons/PC.png"
-      ]
-    }
-  ]
-  
+    "position": "Senior Software Engineer",
+    "date": "May 2021 - Now",
+    "icons": [
+      "images/Projects/Icons/Unity.png",
+      "images/Projects/Icons/PC.png",
+      "images/Projects/Icons/multiplayer.png",
+      "images/Projects/Icons/CS.png",
+      "images/Projects/Icons/vr.png"
+    ]
+  },
+  {
+    "htmlFile": "Projects/marvel-heroes-omega.html",
+    "imgSrc": "images/Projects/marvel.png",
+    "title": "Marvel Heroes Omega",
+    "company": "Gazillion Entertainment",
+    "position": "Associate UI Engineer",
+    "date": "February 2017 - August 2017",
+    "icons": [
+      "images/Projects/Icons/flash.png",
+      "images/Projects/Icons/AS.png",
+      "images/Projects/Icons/Unreal.png",
+      "images/Projects/Icons/multiplayer.png",
+      "images/Projects/Icons/PC.png",
+      "images/Projects/Icons/C++.png"
+    ]
+  },
+  {
+    "htmlFile_": "Projects/marvel-heroes-2015.html",
+    "htmlFile": "Projects/coming-soon.html",
+    "imgSrc": "images/Projects/avengers (1).png",
+    "title": "Marvel Heroes 2015",
+    "company": "Gazillion Entertainment",
+    "position": "UI Engineer Intern",
+    "date": "August 2016 - December 2017",
+    "icons": [
+      "images/Projects/Icons/flash.png",
+      "images/Projects/Icons/AS.png",
+      "images/Projects/Icons/Unreal.png",
+      "images/Projects/Icons/multiplayer.png",
+      "images/Projects/Icons/PC.png",
+      "images/Projects/Icons/C++.png"
+    ]
+  },
+  {
+    "htmlFile_": "Projects/autonomous-car-data.html",
+    "htmlFile": "Projects/coming-soon.html",
+    "imgSrc": "images/Projects/toyota_info_technology_center.png",
+    "title": "Autonomous Car Data",
+    "company": "Toyota InfoTechnology, USA",
+    "position": "Software Developer",
+    "date": "Sept 2017 - Jan 2018",
+    "icons": [
+      "images/Projects/Icons/Unity.png",
+      "images/Projects/Icons/multiplayer.png",
+      "images/Projects/Icons/PC.png",
+      "images/Projects/Icons/CS.png"
+    ]
+  },
+  {
+    "htmlFile_": "Projects/octtree.html",
+    "htmlFile": "Projects/coming-soon.html",
+    "imgSrc": "images/Projects/octree1.png",
+    "title": "OctTree",
+    "company": "FIEA",
+    "position": "Programmer",
+    "date": "2015",
+    "icons": [
+      "images/Projects/Icons/CS.png",
+      "images/Projects/Icons/PC.png",
+      "images/Projects/Icons/webgl.png",
+      "images/Projects/Icons/Unity.png"
+    ]
+  },
+  {
+    "htmlFile_": "Projects/quad-tree.html",
+    "htmlFile": "Projects/coming-soon.html",
+    "imgSrc": "images/Projects/QTree.png",
+    "title": "Quad Tree",
+    "company": "FIEA",
+    "position": "Programmer",
+    "date": "2015",
+    "icons": [
+      "images/Projects/Icons/CS.png",
+      "images/Projects/Icons/webgl.png",
+      "images/Projects/Icons/PC.png",
+      "images/Projects/Icons/Unity.png"
+    ]
+  },
+  {
+    "htmlFile_": "Projects/f-zero.html",
+    "htmlFile": "Projects/coming-soon.html",
+    "imgSrc": "images/Projects/FZero.png",
+    "title": "F-ZERO",
+    "company": "FIEA",
+    "position": "Programmer",
+    "date": "2015",
+    "icons": [
+      "images/Projects/Icons/C++.png",
+      "images/Projects/Icons/PC.png",
+      "images/Projects/Icons/opengl.png",
+      "images/Projects/Icons/DX.png",
+      "images/Projects/Icons/xbox.png"
+    ]
+  },
+  {
+    "htmlFile_": "Projects/the-channeler.html",
+    "htmlFile": "Projects/coming-soon.html",
+    "imgSrc": "images/Projects/channeler.png",
+    "title": "The Channeler",
+    "company": "FIEA",
+    "position": "Programmer",
+    "date": "2015",
+    "icons": [
+      "images/Projects/Icons/Unreal.png",
+      "images/Projects/Icons/C++.png",
+      "images/Projects/Icons/p4.png",
+      "images/Projects/Icons/PC.png"
+    ]
+  },
+  {
+    "htmlFile_": "Projects/lil-rube's-machine.html",
+    "htmlFile": "Projects/coming-soon.html",
+    "imgSrc": "images/Projects/LilRubes.png",
+    "title": "Lil Rube's Machine",
+    "company": "FIEA",
+    "position": "Programmer",
+    "date": "2015",
+    "icons": [
+      "images/Projects/Icons/Unreal.png",
+      "images/Projects/Icons/C++.png",
+      "images/Projects/Icons/p4.png",
+      "images/Projects/Icons/PC.png"
+    ]
+  },
+  {
+    "htmlFile_": "Projects/princess-panic.html",
+    "htmlFile": "Projects/coming-soon.html",
+    "imgSrc": "images/Projects/Princess.png",
+    "title": "Princess Panic",
+    "company": "FIEA",
+    "position": "Programmer",
+    "date": "2015",
+    "icons": [
+      "images/Projects/Icons/Unity.png",
+      "images/Projects/Icons/android.png",
+      "images/Projects/Icons/CS.png",
+      "images/Projects/Icons/p4.png",
+      "images/Projects/Icons/PC.png"
+    ]
+  },
+  {
+    "htmlFile_": "Projects/vr-manual.html",
+    "htmlFile": "Projects/coming-soon.html",
+    "imgSrc": "images/Projects/VRManual.png",
+    "title": "VR Manual",
+    "company": "AiSolve Limited",
+    "position": "Software Engineer",
+    "date": "March 2018 - April 2019",
+    "icons": [
+      "images/Projects/Icons/Unity.png",
+      "images/Projects/Icons/plastic.png",
+      "images/Projects/Icons/CS.png",
+      "images/Projects/Icons/PC.png",
+      "images/Projects/Icons/vr.png"
+    ]
+  },
+  {
+    "htmlFile_": "Projects/candy-trap.html",
+    "htmlFile": "Projects/coming-soon.html",
+    "imgSrc": "images/Projects/CandyTrap.png",
+    "title": "Candy Trap",
+    "company": "FIEA",
+    "position": "Programmer",
+    "date": "2015",
+    "icons": [
+      "images/Projects/Icons/flash.png",
+      "images/Projects/Icons/AS.png",
+      "images/Projects/Icons/p4.png",
+      "images/Projects/Icons/PC.png"
+    ]
+  },
+  {
+    "htmlFile_": "Projects/image-classification.html",
+    "htmlFile": "Projects/coming-soon.html",
+    "imgSrc": "images/Projects/img_classification.png",
+    "title": "Image Classification",
+    "company": "LifeRaft Navigator",
+    "position": "Research Assistant",
+    "date": "Sept 2020 - Dec 2020",
+    "icons": [
+      "images/Projects/Icons/java.png",
+      "images/Projects/Icons/PC.png",
+      "images/Projects/Icons/git.png",
+      "images/Projects/Icons/python.png"
+    ]
+  },
+  {
+    "htmlFile_": "Projects/live-wallpaper-engine.html",
+    "htmlFile": "Projects/coming-soon.html",
+    "imgSrc": "images/Projects/liveWP.png",
+    "title": "Live Wallpaper Engine",
+    "company": "Self-employed",
+    "position": "Software Engineer",
+    "date": "Sept 2018 - Dec 2018",
+    "icons": [
+      "images/Projects/Icons/Unity.png",
+      "images/Projects/Icons/CS.png",
+      "images/Projects/Icons/git.png",
+      "images/Projects/Icons/android.png",
+      "images/Projects/Icons/PC.png",
+      "images/Projects/Icons/java.png"
+    ]
+  },
+  {
+    "htmlFile_": "Projects/live-wallpaper-engine.html",
+    "htmlFile": "Projects/coming-soon.html",
+    "imgSrc": "images/Projects/Spring.png",
+    "title": "Live Wallpaper Engine",
+    "company": "Self-employed",
+    "position": "Software Engineer",
+    "date": "Sept 2018 - Dec 2018",
+    "icons": [
+      "images/Projects/Icons/Unity.png",
+      "images/Projects/Icons/git.png",
+      "images/Projects/Icons/CS.png",
+      "images/Projects/Icons/android.png",
+      "images/Projects/Icons/PC.png",
+      "images/Projects/Icons/java.png"
+    ]
+  },
+  {
+    "htmlFile_": "Projects/ml-agents.html",
+    "htmlFile": "Projects/coming-soon.html",
+    "imgSrc": "images/Projects/mlAgents.png",
+    "title": "ML-Agents",
+    "company": "Self-employed",
+    "position": "Software Engineer",
+    "date": "Nov 2023 - Feb 2024",
+    "icons": [
+      "images/Projects/Icons/Unity.png",
+      "images/Projects/Icons/git.png",
+      "images/Projects/Icons/CS.png",
+      "images/Projects/Icons/PC.png"
+    ]
+  },
+  {
+    "htmlFile_": "Projects/christmas-in-igloo-pro.html",
+    "htmlFile": "Projects/coming-soon.html",
+    "imgSrc": "images/Projects/Xmas.png",
+    "title": "Christmas in Igloo Pro",
+    "company": "Self-employed",
+    "position": "Software Engineer",
+    "date": "May 2019 - Dec 2020",
+    "icons": [
+      "images/Projects/Icons/Unity.png",
+      "images/Projects/Icons/CS.png",
+      "images/Projects/Icons/android.png",
+      "images/Projects/Icons/PC.png",
+      "images/Projects/Icons/java.png"
+    ]
+  },
+  {
+    "htmlFile_": "Projects/food-truck-rush.html",
+    "htmlFile": "Projects/coming-soon.html",
+    "imgSrc": "images/Projects/vr_bear.png",
+    "title": "Food Truck Rush",
+    "company": "AiSolve Limited",
+    "position": "Software Engineer",
+    "date": "March 2018 - April 2019",
+    "icons": [
+      "images/Projects/Icons/Unity.png",
+      "images/Projects/Icons/plastic.png",
+      "images/Projects/Icons/CS.png",
+      "images/Projects/Icons/PC.png",
+      "images/Projects/Icons/vr.png"
+    ]
+  },
+  {
+    "htmlFile_": "Projects/moonlight-hunt.html",
+    "htmlFile": "Projects/coming-soon.html",
+    "imgSrc": "images/Projects/vr_moonlight.png",
+    "title": "Moonlight Hunt",
+    "company": "AiSolve Limited",
+    "position": "Software Engineer",
+    "date": "March 2018 - April 2019",
+    "icons": [
+      "images/Projects/Icons/Unity.png",
+      "images/Projects/Icons/plastic.png",
+      "images/Projects/Icons/CS.png",
+      "images/Projects/Icons/PC.png",
+      "images/Projects/Icons/vr.png"
+    ]
+  },
+  {
+    "htmlFile_": "Projects/clock-tower.html",
+    "htmlFile": "Projects/coming-soon.html",
+    "imgSrc": "images/Projects/clock_tower.png",
+    "title": "Clock Tower",
+    "company": "AiSolve Limited",
+    "position": "Software Engineer",
+    "date": "March 2018 - April 2019",
+    "icons": [
+      "images/Projects/Icons/plastic.png",
+      "images/Projects/Icons/Unreal.png",
+      "images/Projects/Icons/C++.png",
+      "images/Projects/Icons/PC.png",
+      "images/Projects/Icons/vr.png"
+    ]
+  },
+  {
+    "htmlFile_": "Projects/rts-resource-manager.html",
+    "htmlFile": "Projects/coming-soon.html",
+    "imgSrc": "images/Projects/ResMan.png",
+    "title": "RTS Resource Manager",
+    "company": "SOLO",
+    "position": "Softare Engineer",
+    "date": "February 2015",
+    "icons": [
+      "images/Projects/Icons/C++.png",
+      "images/Projects/Icons/PC.png"
+    ]
+  },
+  {
+    "htmlFile_": "Projects/huffman-compressor.html",
+    "htmlFile": "Projects/coming-soon.html",
+    "imgSrc": "images/Projects/huffman.png",
+    "title": "Huffman Compressor",
+    "company": "SOLO",
+    "position": "Softare Engineer",
+    "date": "February 2015",
+    "icons": [
+      "images/Projects/Icons/C++.png",
+      "images/Projects/Icons/PC.png"
+    ]
+  },
+  {
+    "htmlFile_": "Projects/life-till-2015.html",
+    "htmlFile": "Projects/coming-soon.html",
+    "imgSrc": "images/Projects/LifeTill2015.png",
+    "title": "Life Till 2015",
+    "company": "SOLO",
+    "position": "Softare Engineer",
+    "date": "2006 - 2015",
+    "icons": [
+      "images/Projects/Icons/android.png",
+      "images/Projects/Icons/java.png",
+      "images/Projects/Icons/maya.png",
+      "images/Projects/Icons/flash.png",
+      "images/Projects/Icons/AS.png",
+      "images/Projects/Icons/C++.png",
+      "images/Projects/Icons/PC.png"
+    ]
+  },
+  {
+    "htmlFile_": "Projects/omni-bot.html",
+    "htmlFile": "Projects/coming-soon.html",
+    "imgSrc": "images/Projects/Omni-bot.png",
+    "title": "Omni-bot",
+    "company": "SOLO",
+    "position": "Softare Engineer",
+    "date": "February 2014",
+    "icons": [
+      "images/Projects/Icons/ASM.png",
+      "images/Projects/Icons/C++.png",
+      "images/Projects/Icons/PC.png"
+    ]
+  }
+]
