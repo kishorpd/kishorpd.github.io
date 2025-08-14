@@ -1,6 +1,7 @@
 [
   {
-    "htmlFile": "Projects/poultry-frenzy.html",
+    "htmlFile_": "Projects/poultry-frenzy.html",
+    "htmlFile": "Projects/coming-soon.html",
     "imgSrc": "images/Projects/vr_chicken.png",
     "title": "Poultry Frenzy",
     "company": "MARS VR Lab",
@@ -47,7 +48,8 @@
     ]
   },
   {
-    "htmlFile": "Projects/marvel-heroes-2015.html",
+    "htmlFile_": "Projects/marvel-heroes-2015.html",
+    "htmlFile": "Projects/coming-soon.html",
     "imgSrc": "images/Projects/avengers (1).png",
     "title": "Marvel Heroes 2015",
     "company": "Gazillion Entertainment",
@@ -63,7 +65,8 @@
     ]
   },
   {
-    "htmlFile": "Projects/autonomous-car-data.html",
+    "htmlFile_": "Projects/autonomous-car-data.html",
+    "htmlFile": "Projects/coming-soon.html",
     "imgSrc": "images/Projects/toyota_info_technology_center.png",
     "title": "Autonomous Car Data",
     "company": "Toyota InfoTechnology, USA",
@@ -77,7 +80,8 @@
     ]
   },
   {
-    "htmlFile": "Projects/octtree.html",
+    "htmlFile_": "Projects/octtree.html",
+    "htmlFile": "Projects/coming-soon.html",
     "imgSrc": "images/Projects/octree1.png",
     "title": "OctTree",
     "company": "FIEA",
@@ -91,7 +95,8 @@
     ]
   },
   {
-    "htmlFile": "Projects/quad-tree.html",
+    "htmlFile_": "Projects/quad-tree.html",
+    "htmlFile": "Projects/coming-soon.html",
     "imgSrc": "images/Projects/QTree.png",
     "title": "Quad Tree",
     "company": "FIEA",
@@ -105,7 +110,8 @@
     ]
   },
   {
-    "htmlFile": "Projects/f-zero.html",
+    "htmlFile_": "Projects/f-zero.html",
+    "htmlFile": "Projects/coming-soon.html",
     "imgSrc": "images/Projects/FZero.png",
     "title": "F-ZERO",
     "company": "FIEA",
@@ -120,7 +126,8 @@
     ]
   },
   {
-    "htmlFile": "Projects/the-channeler.html",
+    "htmlFile_": "Projects/the-channeler.html",
+    "htmlFile": "Projects/coming-soon.html",
     "imgSrc": "images/Projects/channeler.png",
     "title": "The Channeler",
     "company": "FIEA",
@@ -134,7 +141,8 @@
     ]
   },
   {
-    "htmlFile": "Projects/lil-rube's-machine.html",
+    "htmlFile_": "Projects/lil-rube's-machine.html",
+    "htmlFile": "Projects/coming-soon.html",
     "imgSrc": "images/Projects/LilRubes.png",
     "title": "Lil Rube's Machine",
     "company": "FIEA",
@@ -148,7 +156,8 @@
     ]
   },
   {
-    "htmlFile": "Projects/princess-panic.html",
+    "htmlFile_": "Projects/princess-panic.html",
+    "htmlFile": "Projects/coming-soon.html",
     "imgSrc": "images/Projects/Princess.png",
     "title": "Princess Panic",
     "company": "FIEA",
@@ -163,7 +172,8 @@
     ]
   },
   {
-    "htmlFile": "Projects/vr-manual.html",
+    "htmlFile_": "Projects/vr-manual.html",
+    "htmlFile": "Projects/coming-soon.html",
     "imgSrc": "images/Projects/VRManual.png",
     "title": "VR Manual",
     "company": "AiSolve Limited",
@@ -178,7 +188,8 @@
     ]
   },
   {
-    "htmlFile": "Projects/candy-trap.html",
+    "htmlFile_": "Projects/candy-trap.html",
+    "htmlFile": "Projects/coming-soon.html",
     "imgSrc": "images/Projects/CandyTrap.png",
     "title": "Candy Trap",
     "company": "FIEA",
@@ -192,7 +203,8 @@
     ]
   },
   {
-    "htmlFile": "Projects/image-classification.html",
+    "htmlFile_": "Projects/image-classification.html",
+    "htmlFile": "Projects/coming-soon.html",
     "imgSrc": "images/Projects/img_classification.png",
     "title": "Image Classification",
     "company": "LifeRaft Navigator",
@@ -206,7 +218,8 @@
     ]
   },
   {
-    "htmlFile": "Projects/live-wallpaper-engine.html",
+    "htmlFile_": "Projects/live-wallpaper-engine.html",
+    "htmlFile": "Projects/coming-soon.html",
     "imgSrc": "images/Projects/liveWP.png",
     "title": "Live Wallpaper Engine",
     "company": "Self-employed",
@@ -222,7 +235,8 @@
     ]
   },
   {
-    "htmlFile": "Projects/live-wallpaper-engine.html",
+    "htmlFile_": "Projects/live-wallpaper-engine.html",
+    "htmlFile": "Projects/coming-soon.html",
     "imgSrc": "images/Projects/Spring.png",
     "title": "Live Wallpaper Engine",
     "company": "Self-employed",
@@ -238,7 +252,8 @@
     ]
   },
   {
-    "htmlFile": "Projects/ml-agents.html",
+    "htmlFile_": "Projects/ml-agents.html",
+    "htmlFile": "Projects/coming-soon.html",
     "imgSrc": "images/Projects/mlAgents.png",
     "title": "ML-Agents",
     "company": "Self-employed",
@@ -252,7 +267,8 @@
     ]
   },
   {
-    "htmlFile": "Projects/christmas-in-igloo-pro.html",
+    "htmlFile_": "Projects/christmas-in-igloo-pro.html",
+    "htmlFile": "Projects/coming-soon.html",
     "imgSrc": "images/Projects/Xmas.png",
     "title": "Christmas in Igloo Pro",
     "company": "Self-employed",
@@ -267,7 +283,8 @@
     ]
   },
   {
-    "htmlFile": "Projects/food-truck-rush.html",
+    "htmlFile_": "Projects/food-truck-rush.html",
+    "htmlFile": "Projects/coming-soon.html",
     "imgSrc": "images/Projects/vr_bear.png",
     "title": "Food Truck Rush",
     "company": "AiSolve Limited",
@@ -282,7 +299,8 @@
     ]
   },
   {
-    "htmlFile": "Projects/moonlight-hunt.html",
+    "htmlFile_": "Projects/moonlight-hunt.html",
+    "htmlFile": "Projects/coming-soon.html",
     "imgSrc": "images/Projects/vr_moonlight.png",
     "title": "Moonlight Hunt",
     "company": "AiSolve Limited",
@@ -297,7 +315,8 @@
     ]
   },
   {
-    "htmlFile": "Projects/clock-tower.html",
+    "htmlFile_": "Projects/clock-tower.html",
+    "htmlFile": "Projects/coming-soon.html",
     "imgSrc": "images/Projects/clock_tower.png",
     "title": "Clock Tower",
     "company": "AiSolve Limited",
@@ -312,7 +331,8 @@
     ]
   },
   {
-    "htmlFile": "Projects/rts-resource-manager.html",
+    "htmlFile_": "Projects/rts-resource-manager.html",
+    "htmlFile": "Projects/coming-soon.html",
     "imgSrc": "images/Projects/ResMan.png",
     "title": "RTS Resource Manager",
     "company": "SOLO",
@@ -324,7 +344,8 @@
     ]
   },
   {
-    "htmlFile": "Projects/huffman-compressor.html",
+    "htmlFile_": "Projects/huffman-compressor.html",
+    "htmlFile": "Projects/coming-soon.html",
     "imgSrc": "images/Projects/huffman.png",
     "title": "Huffman Compressor",
     "company": "SOLO",
@@ -336,7 +357,8 @@
     ]
   },
   {
-    "htmlFile": "Projects/life-till-2015.html",
+    "htmlFile_": "Projects/life-till-2015.html",
+    "htmlFile": "Projects/coming-soon.html",
     "imgSrc": "images/Projects/LifeTill2015.png",
     "title": "Life Till 2015",
     "company": "SOLO",
@@ -353,7 +375,8 @@
     ]
   },
   {
-    "htmlFile": "Projects/omni-bot.html",
+    "htmlFile_": "Projects/omni-bot.html",
+    "htmlFile": "Projects/coming-soon.html",
     "imgSrc": "images/Projects/Omni-bot.png",
     "title": "Omni-bot",
     "company": "SOLO",
