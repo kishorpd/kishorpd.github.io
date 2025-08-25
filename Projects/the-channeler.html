@@ -1,1 +1,55 @@
-<font size="+2">Marvel Heroes 2016 | Gazillion Entertainment.</font><a><img src="images/Projects/Banner/MHOmega.jpg" alt="Picture" style="width:auto;max-width:100%" /></a></br></br><font size="+2">Role : Gameplay/UI Engineer Intern</font></br></br><div  align="left" >Worked with  : Andrew Churchill, Drew Zeller, Peter Pascoal</br></br></br>Unreal Engine 3, Scaleform, Adobe Flash, ActionScipt 2.0, UnrealScript, C++.</br></br></br>Marvel Heroes 2016, originally known as Marvel Heroes, is a free-to-play massively multiplayer online action role-playing video game developed by Gazillion Entertainment and Secret Identity Studios. Characters such as Iron Man, Captain America, Deadpool and Wolverine serve as characters that players can unlock in the game.Working at Gazillion was a very fun and great experience for me. The team is really cool and always helpful.My daily tasks were resolving the bugs/defects and implementing User-Stories. We had a daily meeting about what everyone worked on and is going to work on. On Tuesdays we had an Engineering meeting in which one engineer would be giving presentations on one of the complicated systems they have implemented in the game. This was really helpful to know more about the implementations of the systems in game every week.I had never worked on Scaleform and UnrealEngine 3 using UnrealScript and this was a very good opportunity for me to get my hands on these technologies. It was fun learning new things and getting to work on big systems which are highly data driven.</div> 
+
+<font size="+2">The Channeler</font>
+</br>
+
+
+<div>
+    <a>
+        <img src="images/Projects/Banner/8593351_orig.png" alt="Picture" style="width:auto;max-width:100%">
+    </a>
+</div>
+
+<div>
+    The Channeler
+    <br><br>
+    Programmers: Nihav Jain, Matt Hansen, Steven Ignetti, Yuhsiang Lu, and Myself.
+    <br>
+    Artists: Summan Mirza, Alexandra Papanicolaou, Claire Rice, and Kaitlin Brady.
+    <br>
+    Producers: Keiran Kozlowski, Peter Napolitano, Raymond Ng, and Derek Mattson.
+    <br><br>
+    [Initially started in Unity3D with Oculus SDK, later shifted to Unreal Engine 4.x with Tobii EyeX SDK]
+    <br><br>
+    "The Channeler" is a research capstone project/game. This game was made in two phases. The game initially was proposed for having eye tracking with VR headset. 
+    <br>
+    But due to the cost concerns, we decided to have only head tracking through VR headset. We started developing the game with Oculus Rift VR headset, using Unity3D. The center of the screen on Oculus Display was to be considered as the gaze of the player.
+    <br><br>
+    Later on, we increased the scope by shifting the game to "Unreal Engine 4.x" and instead of having the 'head tracking only', we started with both eye-tracking and head tracking as a desktop-only game instead of VR. This was achieved using the "Tobii EyeX Controller Device".
+    <br><br>
+    My role was UI and gameplay programmer. Duties involved developing and mapping the UI and mechanics using the eye-gaze detected by the device.
+</div>
+
+
+<div class="iframe-container">    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/e7vkOs1Z1AE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>    
+</div>
+    
+<div>
+    The 3D object which can be interacted with the Gaze of player are called as "EyeX Base Actors". This has an Eye-Gaze event, which gets triggered when the player looks at that object.
+    <br><br>
+    This object was inherited in many ways by us programmers. I made a component to be attached to this actor, which communicates with the HUD.
+    <br><br>
+    In the video, the transparent circle moving around is an aid about where the player is currently looking at.
+    <br><br>
+    @ <a href="https://www.youtube.com/watch?v=e7vkOs1Z1AE#">00:00</a> The first component was opacity of the eye. When the player starts looking at any EyeX Actor having this component will increase the opacity and vice versa when the player is looking away.
+    <br><br>
+    @ <a href="https://www.youtube.com/watch?v=e7vkOs1Z1AE#">00:07</a> The second component was Timer. Some EyeX objects were needed to be triggered after some delay. So until the delay, the timer will keep filling.
+    <br><br>
+    I also worked on the HUD, using both C++, for the good amount of math and Blueprints for the material selection and exposing some nodes for producers, to customize the UI. This was an amazing experience as I got to work on Materials too. This circular menu has some proxy art when this video was recorded.
+    <br><br>
+    @ <a href="https://www.youtube.com/watch?v=e7vkOs1Z1AE#">00:14</a> This GUI was highly customizable by producers, the scale of icons, opacity of each material, scale of the circular divisions, etc. The way it works is, on pressing a key the menu will popup and the user has to look at the option to select it. The last selected option will be whitish and the one currently under gaze of the player is Orange.
+    <br><br>
+    Apart from the HUD, I also worked on the UMG for the menu transitions like New Game, Pause Menu, Level Selection, etc.
+</div>
+
+<div style="height: 20px; overflow: hidden; width: 100%;"></div>
