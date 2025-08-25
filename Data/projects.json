@@ -48,8 +48,7 @@
     ]
   },
   {
-    "htmlFile_": "Projects/marvel-heroes-2015.html",
-    "htmlFile": "Projects/coming-soon.html",
+    "htmlFile": "Projects/marvel-heroes-2015.html",
     "imgSrc": "images/Projects/avengers (1).png",
     "title": "Marvel Heroes 2015",
     "company": "Gazillion Entertainment",
@@ -80,8 +79,7 @@
     ]
   },
   {
-    "htmlFile_": "Projects/octtree.html",
-    "htmlFile": "Projects/coming-soon.html",
+    "htmlFile": "Projects/octtree.html",
     "imgSrc": "images/Projects/octree1.png",
     "title": "OctTree",
     "company": "FIEA",
@@ -95,8 +93,7 @@
     ]
   },
   {
-    "htmlFile_": "Projects/quad-tree.html",
-    "htmlFile": "Projects/coming-soon.html",
+    "htmlFile": "Projects/quad-tree.html",
     "imgSrc": "images/Projects/QTree.png",
     "title": "Quad Tree",
     "company": "FIEA",
@@ -126,8 +123,7 @@
     ]
   },
   {
-    "htmlFile_": "Projects/the-channeler.html",
-    "htmlFile": "Projects/coming-soon.html",
+    "htmlFile": "Projects/the-channeler.html",
     "imgSrc": "images/Projects/channeler.png",
     "title": "The Channeler",
     "company": "FIEA",
@@ -357,8 +353,7 @@
     ]
   },
   {
-    "htmlFile_": "Projects/life-till-2015.html",
-    "htmlFile": "Projects/coming-soon.html",
+    "htmlFile": "Projects/life-till-2015.html",
     "imgSrc": "images/Projects/LifeTill2015.png",
     "title": "Life Till 2015",
     "company": "SOLO",
